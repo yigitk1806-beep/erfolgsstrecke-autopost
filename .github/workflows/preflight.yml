@@ -1,0 +1,47 @@
+name: Medien pruefen
+
+on:
+  push:
+    paths:
+      - "preflight/test.*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    env:
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Bild
+        run: python preflight.py bild
+      - name: Reel
+        if: always()
+        run: python preflight.py reel
+      - name: Trial-Reel
+        if: always()
+        run: python preflight.py trial-reel
+      - name: Ergebnis speichern
+        if: always()
+        run: |
+          git config user.name "autopost"
+          git config user.email "autopost@users.noreply.github.com"
+          git add preflight/ergebnis.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Medienpruefung: Ergebnis"
+            git pull --rebase
+            git push
+          fi

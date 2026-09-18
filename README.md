@@ -29,8 +29,13 @@ Felder der `post.json` (Vorlage: `beispiel-post.json`):
 | `caption` | Bildunterschrift inkl. Hashtags |
 | `media` | Dateinamen in Reihenfolge |
 | `approved` | erst nach Freigabe auf `true` |
+| `trial` | nur Reels, optional: `SS_PERFORMANCE` (Trial Reel, wird bei Erfolg automatisch für Follower freigeschaltet) oder `MANUAL` |
 
-Regeln: Bilder nur **JPEG**, Karussell 2–10 Bilder, Ordner- und Dateinamen ohne Leerzeichen.
+Regeln: Bilder nur **JPEG**, Karussell 2–10 Bilder, höchstens **5 Hashtags**, Ordner- und Dateinamen ohne Leerzeichen.
+
+## Medien prüfen
+
+Der Workflow *Medien pruefen* legt bei jeder Änderung an `preflight/test.*` Test-Container für Bild, Reel und Trial-Reel an — **ohne zu veröffentlichen** — und schreibt das Ergebnis nach `preflight/ergebnis.json`.
 
 ## Einmalige Einrichtung
 

@@ -8,6 +8,7 @@ der Zeitpunkt "publish_at" erreicht ist.
 import argparse
 import json
 import os
+import re
 import shutil
 import sys
 import time
@@ -25,6 +26,7 @@ QUEUE = Path(os.environ.get("QUEUE_DIR", ROOT / "queue"))
 PUBLISHED = Path(os.environ.get("PUBLISHED_DIR", ROOT / "published"))
 MAX_PER_RUN = 3
 MAX_ATTEMPTS = 3
+MAX_HASHTAGS = 5  # seit 12/2025 empfiehlt Instagram Beitraege mit mehr Hashtags nicht weiter
 
 
 def media_base_url() -> str:
@@ -54,11 +56,12 @@ def account_id() -> str:
 def wait_until_ready(container_id: str, timeout_s: int) -> None:
     deadline = time.time() + timeout_s
     while True:
-        status = api("GET", container_id, fields="status_code").get("status_code")
+        info = api("GET", container_id, fields="status_code,status")
+        status = info.get("status_code")
         if status == "FINISHED":
             return
         if status in ("ERROR", "EXPIRED"):
-            raise RuntimeError(f"Container {container_id}: {status}")
+            raise RuntimeError(f"Container {container_id}: {status} - {info.get('status', '')}")
         if time.time() > deadline:
             raise RuntimeError(f"Container {container_id} nach {timeout_s}s noch {status}")
         time.sleep(20)
@@ -78,6 +81,8 @@ def publish_post(folder: Path, post: dict, dry_run: bool) -> str:
         raise ValueError("Karussell braucht 2 bis 10 Bilder")
     if kind in ("image", "carousel") and not all(u.lower().endswith((".jpg", ".jpeg")) for u in urls):
         raise ValueError("Instagram akzeptiert nur JPEG-Bilder")
+    if len(re.findall(r"#\w+", caption)) > MAX_HASHTAGS:
+        raise ValueError(f"Mehr als {MAX_HASHTAGS} Hashtags - Instagram wuerde den Beitrag nicht empfehlen")
 
     if dry_run:
         print(f"  [Probelauf] {kind}, {len(urls)} Datei(en):")
@@ -100,9 +105,13 @@ def publish_post(folder: Path, post: dict, dry_run: bool) -> str:
         )
         wait_until_ready(container, 120)
     elif kind == "reel":
-        container = create_container(
-            user_id, media_type="REELS", video_url=urls[0], caption=caption, share_to_feed="true"
-        )
+        fields = {"media_type": "REELS", "video_url": urls[0], "caption": caption}
+        if post.get("trial"):
+            # Trial Reel: erst nur Nicht-Followern zeigen, SS_PERFORMANCE schaltet bei Erfolg frei
+            fields["trial_params"] = json.dumps({"graduation_strategy": post["trial"]})
+        else:
+            fields["share_to_feed"] = "true"
+        container = create_container(user_id, **fields)
         wait_until_ready(container, 600)
     else:
         raise ValueError(f"Unbekannter Beitragstyp: {kind}")
