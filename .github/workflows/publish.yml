@@ -4,6 +4,11 @@ on:
   schedule:
     # abseits der vollen Stunde - dann verzoegert GitHub Zeitplaene seltener
     - cron: "7,22,37,52 * * * *"
+  # sofort nach dem Hochladen neuer Beitraege pruefen, nicht erst beim naechsten Zeitplan-Lauf
+  push:
+    branches: [main]
+    paths:
+      - "queue/**"
   workflow_dispatch:
     inputs:
       dry_run:
