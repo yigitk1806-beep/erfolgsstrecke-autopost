@@ -2,7 +2,8 @@ name: Instagram veroeffentlichen
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # abseits der vollen Stunde - dann verzoegert GitHub Zeitplaene seltener
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
