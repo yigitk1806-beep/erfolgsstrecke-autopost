@@ -12,6 +12,7 @@ import shutil
 import sys
 import time
 from datetime import datetime, timezone
+from functools import lru_cache
 from pathlib import Path
 from urllib.parse import quote
 
@@ -44,6 +45,12 @@ def api(method: str, path: str, **params) -> dict:
     return data
 
 
+@lru_cache(maxsize=None)
+def account_id() -> str:
+    """IG_USER_ID, falls gesetzt - sonst die Konto-ID, zu der der Zugangsschluessel gehoert."""
+    return os.environ.get("IG_USER_ID") or str(api("GET", "me", fields="user_id")["user_id"])
+
+
 def wait_until_ready(container_id: str, timeout_s: int) -> None:
     deadline = time.time() + timeout_s
     while True:
@@ -62,7 +69,6 @@ def create_container(user_id: str, **fields) -> str:
 
 
 def publish_post(folder: Path, post: dict, dry_run: bool) -> str:
-    user_id = os.environ["IG_USER_ID"] if not dry_run else "DRY-RUN"
     base = f"{media_base_url()}/queue/{quote(folder.name)}"
     urls = [f"{base}/{quote(name)}" for name in post["media"]]
     kind = post["type"]
@@ -79,6 +85,7 @@ def publish_post(folder: Path, post: dict, dry_run: bool) -> str:
             print(f"    {url}")
         return "dry-run"
 
+    user_id = account_id()
     if kind == "image":
         container = create_container(user_id, image_url=urls[0], caption=caption)
         wait_until_ready(container, 120)

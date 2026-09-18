@@ -37,8 +37,8 @@ Regeln: Bilder nur **JPEG**, Karussell 2–10 Bilder, Ordner- und Dateinamen ohn
 1. Meta-App mit *Instagram API with Instagram Login* anlegen, eigenes Konto als Instagram-Tester eintragen, Zugangsschlüssel erzeugen.
 2. Dieses Repository **öffentlich** auf GitHub anlegen — Instagram muss die Bilder abrufen können.
 3. Unter *Settings → Secrets and variables → Actions* anlegen:
-   - `IG_USER_ID` — Instagram-Konto-ID
    - `IG_ACCESS_TOKEN` — Zugangsschlüssel (gilt 60 Tage, wird wöchentlich erneuert)
+   - `IG_USER_ID` — optional, sonst wird die Konto-ID aus dem Zugangsschlüssel ermittelt
    - `GH_PAT` — optional, damit ein erneuerter Schlüssel automatisch gespeichert wird
 4. *Actions → Verbindung testen → Run workflow* — prüft die Verbindung, postet nichts.
 5. *Actions → Instagram veroeffentlichen → Run workflow* — startet von Hand standardmäßig als Probelauf.
