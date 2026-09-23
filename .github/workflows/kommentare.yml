@@ -8,6 +8,7 @@ on:
     paths:
       - "kommentare/antworten.json"
       - "kommentare/einstellungen.json"
+      - "kommentare.py"
   workflow_dispatch:
 
 permissions:

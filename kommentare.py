@@ -90,13 +90,21 @@ def sammeln() -> None:
 
     neu_offen = 0
     beantwortet = 0
-    for media in api("GET", "me/media", fields="id,timestamp,comments_count", limit=25).get("data", []):
-        if not media.get("comments_count"):
+    diagnose = []
+    for media in api("GET", "me/media", fields="id,timestamp,media_type,comments_count", limit=25).get("data", []):
+        alt = datetime.fromisoformat(media["timestamp"].replace("+0000", "+00:00")) < grenze
+        eintrag = {"beitrag": media["id"], "zeit": media.get("timestamp"), "art": media.get("media_type"),
+                   "laut_instagram": media.get("comments_count"), "zu_alt": alt, "gelesen": None}
+        diagnose.append(eintrag)
+        if alt:
             continue
-        if datetime.fromisoformat(media["timestamp"].replace("+0000", "+00:00")) < grenze:
+        try:
+            kommentare = api("GET", f"{media['id']}/comments",
+                             fields="id,text,timestamp,username,replies{username}", limit=50).get("data", [])
+        except RuntimeError as exc:
+            eintrag["gelesen"] = f"Fehler: {exc}"[:200]
             continue
-        kommentare = api("GET", f"{media['id']}/comments",
-                         fields="id,text,timestamp,username,replies{username}", limit=50).get("data", [])
+        eintrag["gelesen"] = len(kommentare)
         for k in kommentare:
             if k["id"] in erledigt or k.get("username") == ich:
                 continue
@@ -117,6 +125,7 @@ def sammeln() -> None:
 
     speichere(OFFEN, sorted(offen.values(), key=lambda c: c.get("zeit") or ""))
     speichere(ERLEDIGT, sorted(erledigt))
+    speichere(ROOT / "diagnose.json", diagnose)
     print(f"Automatisch beantwortet: {beantwortet} | wartet auf Freigabe: {len(offen)} (davon neu: {neu_offen})")
 
 
