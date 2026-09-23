@@ -1,8 +1,8 @@
 name: Kommentare
 
+# Stuendliches Abfragen ist aus: Im Entwicklungsmodus liefert Instagram keine fremden
+# Kommentare. Wieder einschalten, sobald die App live ist und die Pruefung durch ist.
 on:
-  schedule:
-    - cron: "17 * * * *"
   push:
     branches: [main]
     paths:
