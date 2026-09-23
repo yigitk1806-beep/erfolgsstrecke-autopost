@@ -1,0 +1,46 @@
+name: Kommentare
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "kommentare/antworten.json"
+      - "kommentare/einstellungen.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-kommentare
+  cancel-in-progress: false
+
+jobs:
+  kommentare:
+    runs-on: ubuntu-latest
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Freigegebene Antworten senden
+        run: python kommentare.py antworten
+      - name: Neue Kommentare holen
+        if: always()
+        run: python kommentare.py sammeln
+      - name: Stand speichern
+        if: always()
+        run: |
+          git config user.name "autopost"
+          git config user.email "autopost@users.noreply.github.com"
+          git add kommentare
+          if ! git diff --cached --quiet; then
+            git commit -m "Kommentarstand aktualisiert"
+            git pull --rebase
+            git push
+          fi
