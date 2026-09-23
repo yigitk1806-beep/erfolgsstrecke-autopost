@@ -1,6 +1,10 @@
 name: Verbindung testen
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "check_setup.py"
   workflow_dispatch:
 
 permissions:
