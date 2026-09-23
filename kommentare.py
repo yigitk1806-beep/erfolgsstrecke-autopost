@@ -97,6 +97,12 @@ def sammeln() -> None:
                    "laut_instagram": media.get("comments_count"), "zu_alt": alt, "gelesen": None}
         diagnose.append(eintrag)
         if alt:
+            # Gegenprobe: liefert Instagram bei aelteren Beitraegen ueberhaupt Kommentare?
+            if media.get("comments_count") and len([d for d in diagnose if d["zu_alt"] and d["gelesen"] is not None]) < 2:
+                try:
+                    eintrag["gelesen"] = len(api("GET", f"{media['id']}/comments", fields="id", limit=50).get("data", []))
+                except RuntimeError as exc:
+                    eintrag["gelesen"] = f"Fehler: {exc}"[:200]
             continue
         try:
             kommentare = api("GET", f"{media['id']}/comments",
