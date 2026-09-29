@@ -1,5 +1,5 @@
 {
-  "stand": "2026-09-29T19:19:13+00:00",
+  "stand": "2026-09-29T19:29:17+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
     {
@@ -14,7 +14,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 0
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 0,
+      "ig_reels_video_view_total_time": 0
     },
     {
       "id": "18122056243697641",
@@ -23,12 +25,14 @@
       "hook": "Die meisten Morgenroutinen scheitern nach 5 Tagen. ⏰",
       "likes": 8,
       "kommentare": 3,
-      "views": 578,
+      "views": 580,
       "reach": 255,
       "comments": 3,
       "shares": 0,
       "saved": 2,
-      "total_interactions": 18
+      "total_interactions": 18,
+      "profile_visits": 2,
+      "follows": 0
     },
     {
       "id": "18085652042495970",
@@ -42,7 +46,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 1
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 3218,
+      "ig_reels_video_view_total_time": 366869
     },
     {
       "id": "18004241720790919",
@@ -56,7 +62,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 6
+      "total_interactions": 6,
+      "ig_reels_avg_watch_time": 2821,
+      "ig_reels_video_view_total_time": 293431
     },
     {
       "id": "18161281477496946",
@@ -70,7 +78,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 2,
-      "total_interactions": 12
+      "total_interactions": 12,
+      "profile_visits": 1,
+      "follows": 0
     },
     {
       "id": "18342280021248367",
@@ -84,7 +94,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 1
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 2684,
+      "ig_reels_video_view_total_time": 85918
     },
     {
       "id": "17905527852560076",
@@ -98,7 +110,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 13
+      "total_interactions": 13,
+      "profile_visits": 1,
+      "follows": 0
     },
     {
       "id": "18132020848671633",
@@ -112,7 +126,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 2,
-      "total_interactions": 5
+      "total_interactions": 5,
+      "ig_reels_avg_watch_time": 2896,
+      "ig_reels_video_view_total_time": 306985
     },
     {
       "id": "18384327931231024",
@@ -126,7 +142,9 @@
       "comments": 5,
       "shares": 3,
       "saved": 9,
-      "total_interactions": 35
+      "total_interactions": 35,
+      "profile_visits": 5,
+      "follows": 0
     },
     {
       "id": "18035153915845483",
@@ -140,7 +158,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 3
+      "total_interactions": 3,
+      "ig_reels_avg_watch_time": 2965,
+      "ig_reels_video_view_total_time": 252081
     },
     {
       "id": "18044880287827493",
@@ -154,7 +174,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 13
+      "total_interactions": 13,
+      "ig_reels_avg_watch_time": 2244,
+      "ig_reels_video_view_total_time": 944978
     },
     {
       "id": "18019254668926357",
@@ -164,11 +186,13 @@
       "likes": 7,
       "kommentare": 1,
       "views": 388,
-      "reach": 277,
+      "reach": 279,
       "comments": 1,
       "shares": 1,
       "saved": 1,
-      "total_interactions": 15
+      "total_interactions": 15,
+      "ig_reels_avg_watch_time": 2916,
+      "ig_reels_video_view_total_time": 875009
     }
   ],
   "verlauf": {
@@ -256,5 +280,12 @@
       "reach": 207,
       "follower_count": 3
     }
+  },
+  "herkunft_7_tage": {
+    "reach:NON_FOLLOWER": 525,
+    "reach:FOLLOWER": 617,
+    "views:UNKNOWN": 2,
+    "views:NON_FOLLOWER": 737,
+    "views:FOLLOWER": 3814
   }
 }
