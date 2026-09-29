@@ -16,21 +16,50 @@ import publish
 
 ROOT = Path(__file__).resolve().parent / "auswertung"
 TAGE = 21
-MEDIA_KENNZAHLEN = ["views", "reach", "likes", "comments", "shares", "saved", "total_interactions"]
-KONTO_KENNZAHLEN = ["views", "reach", "follower_count"]
+MEDIA_KENNZAHLEN = ["views", "reach", "likes", "comments", "shares", "saved", "total_interactions",
+                    "profile_visits", "follows", "ig_reels_avg_watch_time", "ig_reels_video_view_total_time"]
+KONTO_KENNZAHLEN = ["views", "reach", "follower_count", "profile_views"]
 
 
 def media_zahlen(media_id: str) -> dict:
+    """Jede Kennzahl einzeln abfragen - Instagram benennt sie staendig um."""
     werte = {}
     for kennzahl in MEDIA_KENNZAHLEN:
-        try:
-            daten = publish.api("GET", f"{media_id}/insights", metric=kennzahl)
-        except RuntimeError:
+        daten = None
+        for zusatz in ({}, {"metric_type": "total_value"}):
+            try:
+                daten = publish.api("GET", f"{media_id}/insights", metric=kennzahl, **zusatz)
+                break
+            except RuntimeError:
+                continue
+        if not daten:
             continue
         for eintrag in daten.get("data", []):
+            if "total_value" in eintrag:
+                werte[kennzahl] = eintrag["total_value"].get("value")
             for wert in eintrag.get("values", []):
                 werte[kennzahl] = wert.get("value")
     return werte
+
+
+def nicht_follower(user_id: str, tage: int) -> dict:
+    """Reichweite aufgeteilt nach Followern und Nicht-Followern, wenn Instagram sie liefert."""
+    ende = datetime.now(timezone.utc)
+    start = ende - timedelta(days=tage)
+    ergebnis = {}
+    for kennzahl in ("reach", "views"):
+        try:
+            daten = publish.api("GET", f"{user_id}/insights", metric=kennzahl, period="day",
+                                metric_type="total_value", breakdown="follow_type",
+                                since=int(start.timestamp()), until=int(ende.timestamp()))
+        except RuntimeError:
+            continue
+        for eintrag in daten.get("data", []):
+            for teil in (eintrag.get("total_value", {}).get("breakdowns") or []):
+                for ergebnis_teil in teil.get("results", []):
+                    schluessel = "/".join(ergebnis_teil.get("dimension_values", []))
+                    ergebnis[f"{kennzahl}:{schluessel}"] = ergebnis_teil.get("value")
+    return ergebnis
 
 
 def konto_zahlen(user_id: str, tage: int) -> dict:
@@ -80,22 +109,32 @@ def main() -> None:
         beitraege.append(zeile)
 
     verlauf = konto_zahlen(user_id, TAGE)
+    herkunft = nicht_follower(user_id, 7)
     daten = {"stand": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-             "konto": konto.get("username"), "beitraege": beitraege, "verlauf": verlauf}
+             "konto": konto.get("username"), "beitraege": beitraege, "verlauf": verlauf,
+             "herkunft_7_tage": herkunft}
     (ROOT / "daten.json").write_text(json.dumps(daten, ensure_ascii=False, indent=2), encoding="utf-8")
 
     zeilen = [f"# Zahlen @{konto.get('username')}",
               f"Stand: {datetime.now(timezone.utc):%d.%m.%Y %H:%M} UTC · letzte {TAGE} Tage", "",
               "## Beiträge", "",
-              "| Zeit | Art | Aufrufe | Reichweite | Likes | Komm. | Geteilt | Gespeichert | Aufhänger |",
-              "|---|---|---|---|---|---|---|---|---|"]
+              "| Zeit | Art | Aufrufe | Reichweite | Likes | Komm. | Geteilt | Gesp. | Profil | Follows | Watchtime | Aufhänger |",
+              "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for b in sorted(beitraege, key=lambda x: x["zeit"], reverse=True):
         wann = datetime.fromisoformat(b["zeit"].replace("+0000", "+00:00")) + timedelta(hours=2)
         art = {"VIDEO": "Reel", "CAROUSEL_ALBUM": "Karussell", "IMAGE": "Bild"}.get(b["art"], b["art"])
-        zeilen.append("| {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
+        watch = b.get("ig_reels_avg_watch_time")
+        watch = f"{watch / 1000:.1f}s" if isinstance(watch, (int, float)) else "-"
+        zeilen.append("| {} | {} | {} | {} | {} | {} | {} | {} | {} | {} | {} | {} |".format(
             wann.strftime("%d.%m. %H:%M"), art, b.get("views", "-"), b.get("reach", "-"),
             b.get("likes", "-"), b.get("kommentare", "-"), b.get("shares", "-"),
-            b.get("saved", "-"), b["hook"].replace("|", "/")))
+            b.get("saved", "-"), b.get("profile_visits", "-"), b.get("follows", "-"),
+            watch, b["hook"].replace("|", "/")))
+
+    if herkunft:
+        zeilen += ["", "## Woher die Reichweite kommt (7 Tage)", "", "| Quelle | Wert |", "|---|---|"]
+        for schluessel, wert in sorted(herkunft.items()):
+            zeilen.append(f"| {schluessel} | {wert} |")
 
     if verlauf:
         zeilen += ["", "## Konto pro Tag", "", "| Tag | Aufrufe | Reichweite | Follower-Zuwachs |", "|---|---|---|---|"]
