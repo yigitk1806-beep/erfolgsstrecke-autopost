@@ -1,5 +1,5 @@
 # Zahlen @erfolgsstrecke
-Stand: 29.09.2026 19:42 UTC · letzte 21 Tage
+Stand: 29.09.2026 19:44 UTC · letzte 21 Tage
 
 ## Beiträge
 
@@ -22,7 +22,12 @@ Stand: 29.09.2026 19:42 UTC · letzte 21 Tage
 
 | Säule | Beiträge | Aufrufe | Reichweite | Geteilt | Gespeichert | Profilbesuche |
 |---|---|---|---|---|---|---|
-| sonstiges | 12 | 394.8 | 220.9 | 0.3 | 1.5 | 2.2 |
+| geld | 2 | 755.0 | 386.5 | 1.5 | 5.5 | 5.0 |
+| disziplin | 3 | 648.3 | 291.3 | 0.0 | 1.7 | 1.3 |
+| umfeld | 1 | 509.0 | 390.0 | 0.0 | 0.0 | - |
+| fokus | 1 | 390.0 | 279.0 | 1.0 | 1.0 | - |
+| karriere | 1 | 105.0 | 85.0 | 0.0 | 0.0 | - |
+| mindset | 4 | 69.5 | 62.5 | 0.0 | 0.2 | - |
 
 ## Woher die Reichweite kommt (7 Tage)
 
