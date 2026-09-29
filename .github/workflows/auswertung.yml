@@ -1,0 +1,41 @@
+name: Zahlen holen
+
+on:
+  schedule:
+    - cron: "40 6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "auswertung.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-auswertung
+  cancel-in-progress: false
+
+jobs:
+  zahlen:
+    runs-on: ubuntu-latest
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python auswertung.py
+      - name: Bericht speichern
+        if: always()
+        run: |
+          git config user.name "autopost"
+          git config user.email "autopost@users.noreply.github.com"
+          git add auswertung
+          if ! git diff --cached --quiet; then
+            git commit -m "Zahlen aktualisiert"
+            git pull --rebase
+            git push
+          fi
