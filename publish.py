@@ -24,7 +24,7 @@ GRAPH = f"https://graph.instagram.com/{API_VERSION}"
 ROOT = Path(__file__).resolve().parent
 QUEUE = Path(os.environ.get("QUEUE_DIR", ROOT / "queue"))
 PUBLISHED = Path(os.environ.get("PUBLISHED_DIR", ROOT / "published"))
-MAX_PER_RUN = 3
+MAX_PER_RUN = 6
 MAX_ATTEMPTS = 3
 MAX_HASHTAGS = 5  # seit 12/2025 empfiehlt Instagram Beitraege mit mehr Hashtags nicht weiter
 
@@ -123,6 +123,25 @@ def publish_post(folder: Path, post: dict, dry_run: bool) -> str:
     return api("POST", f"{user_id}/media_publish", creation_id=container)["id"]
 
 
+def next_due(now: datetime) -> datetime | None:
+    """Naechster freigegebener Beitrag, der noch aussteht."""
+    zeiten = []
+    if not QUEUE.exists():
+        return None
+    for folder in QUEUE.iterdir():
+        meta = folder / "post.json"
+        if not folder.is_dir() or not meta.exists():
+            continue
+        try:
+            post = json.loads(meta.read_text(encoding="utf-8-sig"))
+            when = datetime.fromisoformat(post["publish_at"].replace("Z", "+00:00"))
+        except (ValueError, KeyError):
+            continue
+        if post.get("approved") and post.get("attempts", 0) < MAX_ATTEMPTS and when > now:
+            zeiten.append(when)
+    return min(zeiten) if zeiten else None
+
+
 def load_due_posts(now: datetime) -> list:
     due = []
     if not QUEUE.exists():
@@ -155,9 +174,18 @@ def save(folder: Path, post: dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="nur pruefen, nichts posten")
+    parser.add_argument("--warten", type=int, default=0,
+                        help="so viele Minuten auf den naechsten Beitrag warten (GitHubs Zeitplan ist ungenau)")
     args = parser.parse_args()
 
     now = datetime.now(timezone.utc)
+    if args.warten and not args.dry_run and not load_due_posts(now):
+        kommt = next_due(now)
+        if kommt and (kommt - now).total_seconds() <= args.warten * 60:
+            wartezeit = (kommt - now).total_seconds()
+            print(f"Naechster Beitrag um {kommt:%H:%M} UTC - warte {wartezeit / 60:.0f} Minuten.")
+            time.sleep(wartezeit + 5)
+            now = datetime.now(timezone.utc)
     due = load_due_posts(now)
     if not due:
         print("Nichts faellig.")

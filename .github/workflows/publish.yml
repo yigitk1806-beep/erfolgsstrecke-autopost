@@ -2,8 +2,9 @@ name: Instagram veroeffentlichen
 
 on:
   schedule:
-    # abseits der vollen Stunde - dann verzoegert GitHub Zeitplaene seltener
-    - cron: "7,22,37,52 * * * *"
+    # GitHub verwirft haeufige Zeitplaene, deshalb nur zweimal pro Stunde.
+    # Ein Lauf, der zu frueh kommt, wartet bis zur Uhrzeit des naechsten Beitrags.
+    - cron: "9,39 * * * *"
   # sofort nach dem Hochladen neuer Beitraege pruefen, nicht erst beim naechsten Zeitplan-Lauf
   push:
     branches: [main]
@@ -26,6 +27,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 260
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,7 +39,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL }}
-        run: python publish.py ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: python publish.py ${{ inputs.dry_run && '--dry-run' || (github.event_name == 'schedule' && '--warten 240' || '') }}
       - name: Stand speichern
         if: always()
         run: |
