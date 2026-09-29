@@ -1,0 +1,260 @@
+{
+  "stand": "2026-09-29T19:19:13+00:00",
+  "konto": "erfolgsstrecke",
+  "beitraege": [
+    {
+      "id": "18171207598455343",
+      "zeit": "2026-09-29T18:39:29+0000",
+      "art": "VIDEO",
+      "hook": "Du bist nicht faul. Du hast nur kein Ziel, das dich morgens aus dem Be",
+      "likes": 0,
+      "kommentare": 0,
+      "views": 0,
+      "reach": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0
+    },
+    {
+      "id": "18122056243697641",
+      "zeit": "2026-09-28T17:08:16+0000",
+      "art": "CAROUSEL_ALBUM",
+      "hook": "Die meisten Morgenroutinen scheitern nach 5 Tagen. ⏰",
+      "likes": 8,
+      "kommentare": 3,
+      "views": 578,
+      "reach": 255,
+      "comments": 3,
+      "shares": 0,
+      "saved": 2,
+      "total_interactions": 18
+    },
+    {
+      "id": "18085652042495970",
+      "zeit": "2026-09-27T17:50:31+0000",
+      "art": "VIDEO",
+      "hook": "Stell dir vor, du triffst dich in 5 Jahren. Würde er dir danken – oder",
+      "likes": 1,
+      "kommentare": 0,
+      "views": 131,
+      "reach": 114,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1
+    },
+    {
+      "id": "18004241720790919",
+      "zeit": "2026-09-26T18:00:27+0000",
+      "art": "VIDEO",
+      "hook": "Heute lachen sie über deinen Plan. In zwei Jahren fragen sie dich, wie",
+      "likes": 5,
+      "kommentare": 0,
+      "views": 114,
+      "reach": 104,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 6
+    },
+    {
+      "id": "18161281477496946",
+      "zeit": "2026-09-25T17:59:36+0000",
+      "art": "CAROUSEL_ALBUM",
+      "hook": "1 % besser pro Tag klingt nach nichts. Nach einem Jahr bist du 37-mal ",
+      "likes": 6,
+      "kommentare": 0,
+      "views": 611,
+      "reach": 277,
+      "comments": 0,
+      "shares": 0,
+      "saved": 2,
+      "total_interactions": 12
+    },
+    {
+      "id": "18342280021248367",
+      "zeit": "2026-09-24T17:25:39+0000",
+      "art": "VIDEO",
+      "hook": "Mit 25 fühlen sich viele alt. Nicht wegen des Alters.",
+      "likes": 1,
+      "kommentare": 0,
+      "views": 33,
+      "reach": 32,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1
+    },
+    {
+      "id": "17905527852560076",
+      "zeit": "2026-09-23T17:23:35+0000",
+      "art": "CAROUSEL_ALBUM",
+      "hook": "Erfolg kostet. Hier ist die Rechnung. 🧾",
+      "likes": 7,
+      "kommentare": 0,
+      "views": 749,
+      "reach": 340,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 13
+    },
+    {
+      "id": "18132020848671633",
+      "zeit": "2026-09-22T17:05:12+0000",
+      "art": "VIDEO",
+      "hook": "Du willst reich werden? Dann hör auf, reich auszusehen.",
+      "likes": 2,
+      "kommentare": 0,
+      "views": 125,
+      "reach": 105,
+      "comments": 0,
+      "shares": 0,
+      "saved": 2,
+      "total_interactions": 5
+    },
+    {
+      "id": "18384327931231024",
+      "zeit": "2026-09-21T19:41:45+0000",
+      "art": "CAROUSEL_ALBUM",
+      "hook": "Warum die meisten mit 30 noch pleite sind. 💸",
+      "likes": 13,
+      "kommentare": 5,
+      "views": 1385,
+      "reach": 668,
+      "comments": 5,
+      "shares": 3,
+      "saved": 9,
+      "total_interactions": 35
+    },
+    {
+      "id": "18035153915845483",
+      "zeit": "2026-09-20T18:57:56+0000",
+      "art": "VIDEO",
+      "hook": "Du hasst Sonntagabende? Dann lebst du ein Leben, von dem du dich am Wo",
+      "likes": 2,
+      "kommentare": 0,
+      "views": 105,
+      "reach": 85,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 3
+    },
+    {
+      "id": "18044880287827493",
+      "zeit": "2026-09-19T17:42:48+0000",
+      "art": "VIDEO",
+      "hook": "Die Party läuft auch ohne dich. Dein Ziel nicht.",
+      "likes": 8,
+      "kommentare": 0,
+      "views": 509,
+      "reach": 390,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 13
+    },
+    {
+      "id": "18019254668926357",
+      "zeit": "2026-09-18T11:31:29+0000",
+      "art": "VIDEO",
+      "hook": "„Ich hab keine Zeit.“",
+      "likes": 7,
+      "kommentare": 1,
+      "views": 388,
+      "reach": 277,
+      "comments": 1,
+      "shares": 1,
+      "saved": 1,
+      "total_interactions": 15
+    }
+  ],
+  "verlauf": {
+    "2026-09-08": {
+      "reach": 49,
+      "follower_count": 2
+    },
+    "2026-09-09": {
+      "reach": 29,
+      "follower_count": 3
+    },
+    "2026-09-10": {
+      "reach": 26,
+      "follower_count": 3
+    },
+    "2026-09-11": {
+      "reach": 21,
+      "follower_count": 5
+    },
+    "2026-09-12": {
+      "reach": 30,
+      "follower_count": 1
+    },
+    "2026-09-13": {
+      "reach": 28,
+      "follower_count": 2
+    },
+    "2026-09-14": {
+      "reach": 36,
+      "follower_count": 0
+    },
+    "2026-09-15": {
+      "reach": 27,
+      "follower_count": 4
+    },
+    "2026-09-16": {
+      "reach": 24,
+      "follower_count": 3
+    },
+    "2026-09-17": {
+      "reach": 30,
+      "follower_count": 1
+    },
+    "2026-09-18": {
+      "reach": 56,
+      "follower_count": 3
+    },
+    "2026-09-19": {
+      "reach": 183,
+      "follower_count": 4
+    },
+    "2026-09-20": {
+      "reach": 103,
+      "follower_count": 2
+    },
+    "2026-09-21": {
+      "reach": 272,
+      "follower_count": 4
+    },
+    "2026-09-22": {
+      "reach": 258,
+      "follower_count": 3
+    },
+    "2026-09-23": {
+      "reach": 320,
+      "follower_count": 1
+    },
+    "2026-09-24": {
+      "reach": 228,
+      "follower_count": 6
+    },
+    "2026-09-25": {
+      "reach": 214,
+      "follower_count": 2
+    },
+    "2026-09-26": {
+      "reach": 224,
+      "follower_count": 4
+    },
+    "2026-09-27": {
+      "reach": 344,
+      "follower_count": 4
+    },
+    "2026-09-28": {
+      "reach": 207,
+      "follower_count": 3
+    }
+  }
+}
