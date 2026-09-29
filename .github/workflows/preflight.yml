@@ -3,7 +3,7 @@ name: Medien pruefen
 on:
   push:
     paths:
-      - "preflight/test.*"
+      - "preflight/**"
   workflow_dispatch:
 
 permissions:
