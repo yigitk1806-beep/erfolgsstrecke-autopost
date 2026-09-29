@@ -85,8 +85,54 @@ def konto_zahlen(user_id: str, tage: int) -> dict:
     return verlauf
 
 
+def zuordnung() -> dict:
+    """Instagram-Medien-ID -> (Thema, Saeule), damit wir nach Themen auswerten koennen."""
+    saeulen = json.loads((ROOT / "saeulen.json").read_text(encoding="utf-8")) if (ROOT / "saeulen.json").exists() else {}
+    treffer = {}
+    veroeffentlicht = ROOT.parent / "published"
+    if not veroeffentlicht.exists():
+        return treffer
+    for ordner in veroeffentlicht.iterdir():
+        meta = ordner / "post.json"
+        if not ordner.is_dir() or not meta.exists():
+            continue
+        try:
+            post = json.loads(meta.read_text(encoding="utf-8-sig"))
+        except ValueError:
+            continue
+        if not post.get("published_id"):
+            continue
+        thema = ordner.name[17:] if len(ordner.name) > 17 else ordner.name
+        treffer[str(post["published_id"])] = (thema, saeulen.get(thema, "sonstiges"))
+    return treffer
+
+
+def saeulen_tabelle(beitraege: list) -> list:
+    """Pro Saeule zusammenfassen - erst mehrere Beitraege ergeben ein Muster."""
+    gruppen: dict[str, list] = {}
+    for b in beitraege:
+        if b.get("saeule"):
+            gruppen.setdefault(b["saeule"], []).append(b)
+    if not gruppen:
+        return []
+    zeilen = ["", "## Themensäulen (Schnitt pro Beitrag)", "",
+              "| Säule | Beiträge | Aufrufe | Reichweite | Geteilt | Gespeichert | Profilbesuche |",
+              "|---|---|---|---|---|---|---|"]
+
+    def schnitt(gruppe, feld):
+        werte = [g.get(feld) for g in gruppe if isinstance(g.get(feld), (int, float))]
+        return round(sum(werte) / len(werte), 1) if werte else "-"
+
+    for saeule, gruppe in sorted(gruppen.items(), key=lambda g: -(schnitt(g[1], "views") if isinstance(schnitt(g[1], "views"), float) else 0)):
+        zeilen.append("| {} | {} | {} | {} | {} | {} | {} |".format(
+            saeule, len(gruppe), schnitt(gruppe, "views"), schnitt(gruppe, "reach"),
+            schnitt(gruppe, "shares"), schnitt(gruppe, "saved"), schnitt(gruppe, "profile_visits")))
+    return zeilen
+
+
 def main() -> None:
     ROOT.mkdir(parents=True, exist_ok=True)
+    themen = zuordnung()
     konto = publish.api("GET", "me", fields="user_id,username")
     user_id = str(konto["user_id"])
     grenze = datetime.now(timezone.utc) - timedelta(days=TAGE)
@@ -105,6 +151,8 @@ def main() -> None:
             "likes": media.get("like_count"),
             "kommentare": media.get("comments_count"),
         }
+        thema, saeule = themen.get(media["id"], (None, None))
+        zeile["thema"], zeile["saeule"] = thema, saeule
         zeile.update(media_zahlen(media["id"]))
         beitraege.append(zeile)
 
@@ -130,6 +178,8 @@ def main() -> None:
             b.get("likes", "-"), b.get("kommentare", "-"), b.get("shares", "-"),
             b.get("saved", "-"), b.get("profile_visits", "-"), b.get("follows", "-"),
             watch, b["hook"].replace("|", "/")))
+
+    zeilen += saeulen_tabelle(beitraege)
 
     if herkunft:
         zeilen += ["", "## Woher die Reichweite kommt (7 Tage)", "", "| Quelle | Wert |", "|---|---|"]
