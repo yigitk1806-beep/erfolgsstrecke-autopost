@@ -102,7 +102,7 @@ def zuordnung() -> dict:
             continue
         if not post.get("published_id"):
             continue
-        thema = ordner.name[17:] if len(ordner.name) > 17 else ordner.name
+        thema = ordner.name[16:] if len(ordner.name) > 16 else ordner.name
         treffer[str(post["published_id"])] = (thema, saeulen.get(thema, "sonstiges"))
     return treffer
 
