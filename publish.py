@@ -75,11 +75,11 @@ def publish_post(folder: Path, post: dict, dry_run: bool) -> str:
     base = f"{media_base_url()}/queue/{quote(folder.name)}"
     urls = [f"{base}/{quote(name)}" for name in post["media"]]
     kind = post["type"]
-    caption = post["caption"]
+    caption = post.get("caption", "")
 
     if kind == "carousel" and not 2 <= len(urls) <= 10:
         raise ValueError("Karussell braucht 2 bis 10 Bilder")
-    if kind in ("image", "carousel") and not all(u.lower().endswith((".jpg", ".jpeg")) for u in urls):
+    if kind in ("image", "carousel", "story") and not all(u.lower().endswith((".jpg", ".jpeg")) for u in urls):
         raise ValueError("Instagram akzeptiert nur JPEG-Bilder")
     if len(re.findall(r"#\w+", caption)) > MAX_HASHTAGS:
         raise ValueError(f"Mehr als {MAX_HASHTAGS} Hashtags - Instagram wuerde den Beitrag nicht empfehlen")
@@ -94,6 +94,10 @@ def publish_post(folder: Path, post: dict, dry_run: bool) -> str:
     if kind == "image":
         container = create_container(user_id, image_url=urls[0], caption=caption)
         wait_until_ready(container, 120)
+    elif kind == "story":
+        # Story: 24 Stunden sichtbar, keine Bildunterschrift moeglich
+        container = create_container(user_id, media_type="STORIES", image_url=urls[0])
+        wait_until_ready(container, 180)
     elif kind == "carousel":
         children = []
         for url in urls:

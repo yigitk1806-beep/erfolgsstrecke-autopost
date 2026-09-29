@@ -34,6 +34,9 @@ jobs:
       - name: Trial-Reel
         if: always()
         run: python preflight.py trial-reel
+      - name: Story
+        if: always()
+        run: python preflight.py story
       - name: Ergebnis speichern
         if: always()
         run: |

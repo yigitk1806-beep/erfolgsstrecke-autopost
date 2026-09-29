@@ -26,6 +26,9 @@ def run(check: str) -> None:
             user_id, media_type="REELS", video_url=f"{base}/test.mp4", share_to_feed="true"
         )
         publish.wait_until_ready(container, 600)
+    elif check == "story":
+        container = publish.create_container(user_id, media_type="STORIES", image_url=f"{base}/test-story.jpg")
+        publish.wait_until_ready(container, 300)
     elif check == "trial-reel":
         container = publish.create_container(
             user_id, media_type="REELS", video_url=f"{base}/test.mp4",
