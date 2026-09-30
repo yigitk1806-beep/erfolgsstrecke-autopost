@@ -178,31 +178,48 @@ def main() -> None:
                         help="so viele Minuten auf den naechsten Beitrag warten (GitHubs Zeitplan ist ungenau)")
     args = parser.parse_args()
 
-    now = datetime.now(timezone.utc)
-    if args.warten and not args.dry_run and not load_due_posts(now):
+    schluss = time.time() + args.warten * 60
+    failures = 0
+    while True:
+        now = datetime.now(timezone.utc)
+        due = load_due_posts(now)
+        if due:
+            failures += veroeffentliche(due, args.dry_run)
+            if args.dry_run:
+                break
+            continue
+        if args.dry_run or not args.warten:
+            break
         kommt = next_due(now)
-        if kommt and (kommt - now).total_seconds() <= args.warten * 60:
-            wartezeit = (kommt - now).total_seconds()
-            print(f"Naechster Beitrag um {kommt:%H:%M} UTC - warte {wartezeit / 60:.0f} Minuten.")
-            time.sleep(wartezeit + 5)
-            now = datetime.now(timezone.utc)
-    due = load_due_posts(now)
+        if not kommt:
+            break
+        wartezeit = (kommt - now).total_seconds()
+        if time.time() + wartezeit > schluss:
+            print(f"Naechster Beitrag erst um {kommt:%d.%m. %H:%M} UTC - dafuer reicht dieser Lauf nicht.")
+            break
+        print(f"Warte {wartezeit / 60:.0f} Minuten bis {kommt:%H:%M} UTC.")
+        time.sleep(wartezeit + 5)
+    sys.exit(1 if failures else 0)
+
+
+def veroeffentliche(due: list, dry_run: bool) -> int:
+    """Faellige Beitraege posten, gibt die Zahl der Fehlschlaege zurueck."""
     if not due:
         print("Nichts faellig.")
     failures = 0
     for folder, post in due[:MAX_PER_RUN]:
         print(f"> {folder.name} ({post['type']}, geplant {post['publish_at']})")
         try:
-            media_id = publish_post(folder, post, args.dry_run)
+            media_id = publish_post(folder, post, dry_run)
         except Exception as exc:
             failures += 1
             print(f"  FEHLER: {exc}")
-            if not args.dry_run:
+            if not dry_run:
                 post["attempts"] = post.get("attempts", 0) + 1
                 post["last_error"] = f"{datetime.now(timezone.utc).isoformat()} {exc}"
                 save(folder, post)
             continue
-        if args.dry_run:
+        if dry_run:
             continue
         post["published_id"] = media_id
         post["published_at"] = datetime.now(timezone.utc).isoformat()
@@ -211,7 +228,7 @@ def main() -> None:
         PUBLISHED.mkdir(parents=True, exist_ok=True)
         shutil.move(str(folder), str(PUBLISHED / folder.name))
         print(f"  veroeffentlicht: {media_id}")
-    sys.exit(1 if failures else 0)
+    return failures
 
 
 if __name__ == "__main__":

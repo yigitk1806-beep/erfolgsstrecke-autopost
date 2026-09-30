@@ -27,7 +27,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 260
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -39,7 +39,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL }}
-        run: python publish.py ${{ inputs.dry_run && '--dry-run' || (github.event_name == 'schedule' && '--warten 240' || '') }}
+        run: python publish.py ${{ inputs.dry_run && '--dry-run' || (github.event_name == 'schedule' && '--warten 300' || '') }}
       - name: Stand speichern
         if: always()
         run: |
