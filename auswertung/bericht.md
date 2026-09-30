@@ -1,48 +1,49 @@
 # Zahlen @erfolgsstrecke
-Stand: 29.09.2026 19:44 UTC · letzte 21 Tage
+Stand: 30.09.2026 12:58 UTC · letzte 21 Tage
 
 ## Beiträge
 
 | Zeit | Art | Aufrufe | Reichweite | Likes | Komm. | Geteilt | Gesp. | Profil | Follows | Watchtime | Aufhänger |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 29.09. 20:39 | Reel | 0 | 0 | 0 | 0 | 0 | 0 | - | - | 0.0s | Du bist nicht faul. Du hast nur kein Ziel, das dich morgens aus dem Be |
-| 28.09. 19:08 | Karussell | 583 | 257 | 8 | 3 | 0 | 2 | 2 | 0 | - | Die meisten Morgenroutinen scheitern nach 5 Tagen. ⏰ |
+| 29.09. 20:39 | Reel | 157 | 139 | 2 | 0 | 0 | 2 | - | - | 2.5s | Du bist nicht faul. Du hast nur kein Ziel, das dich morgens aus dem Be |
+| 28.09. 19:08 | Karussell | 700 | 323 | 8 | 3 | 0 | 2 | 2 | 0 | - | Die meisten Morgenroutinen scheitern nach 5 Tagen. ⏰ |
 | 27.09. 19:50 | Reel | 131 | 114 | 1 | 0 | 0 | 0 | - | - | 3.2s | Stell dir vor, du triffst dich in 5 Jahren. Würde er dir danken – oder |
-| 26.09. 20:00 | Reel | 114 | 104 | 5 | 0 | 0 | 1 | - | - | 2.8s | Heute lachen sie über deinen Plan. In zwei Jahren fragen sie dich, wie |
-| 25.09. 19:59 | Karussell | 613 | 277 | 6 | 0 | 0 | 2 | 1 | 0 | - | 1 % besser pro Tag klingt nach nichts. Nach einem Jahr bist du 37-mal  |
+| 26.09. 20:00 | Reel | 115 | 105 | 5 | 0 | 0 | 1 | - | - | 2.9s | Heute lachen sie über deinen Plan. In zwei Jahren fragen sie dich, wie |
+| 25.09. 19:59 | Karussell | 629 | 287 | 6 | 0 | 0 | 2 | 1 | 0 | - | 1 % besser pro Tag klingt nach nichts. Nach einem Jahr bist du 37-mal  |
 | 24.09. 19:25 | Reel | 33 | 32 | 1 | 0 | 0 | 0 | - | - | 2.7s | Mit 25 fühlen sich viele alt. Nicht wegen des Alters. |
-| 23.09. 19:23 | Karussell | 749 | 340 | 7 | 0 | 0 | 1 | 1 | 0 | - | Erfolg kostet. Hier ist die Rechnung. 🧾 |
+| 23.09. 19:23 | Karussell | 758 | 344 | 7 | 0 | 0 | 1 | 1 | 0 | - | Erfolg kostet. Hier ist die Rechnung. 🧾 |
 | 22.09. 19:05 | Reel | 125 | 105 | 2 | 0 | 0 | 2 | - | - | 2.9s | Du willst reich werden? Dann hör auf, reich auszusehen. |
-| 21.09. 21:41 | Karussell | 1385 | 668 | 13 | 5 | 3 | 9 | 5 | 0 | - | Warum die meisten mit 30 noch pleite sind. 💸 |
+| 21.09. 21:41 | Karussell | 1396 | 678 | 13 | 5 | 3 | 9 | 5 | 0 | - | Warum die meisten mit 30 noch pleite sind. 💸 |
 | 20.09. 20:57 | Reel | 105 | 85 | 2 | 0 | 0 | 0 | - | - | 3.0s | Du hasst Sonntagabende? Dann lebst du ein Leben, von dem du dich am Wo |
-| 19.09. 19:42 | Reel | 509 | 390 | 8 | 0 | 0 | 0 | - | - | 2.2s | Die Party läuft auch ohne dich. Dein Ziel nicht. |
-| 18.09. 13:31 | Reel | 390 | 279 | 7 | 1 | 1 | 1 | - | - | 2.9s | „Ich hab keine Zeit.“ |
+| 19.09. 19:42 | Reel | 513 | 392 | 8 | 0 | 0 | 0 | - | - | 2.3s | Die Party läuft auch ohne dich. Dein Ziel nicht. |
+| 18.09. 13:31 | Reel | 398 | 286 | 7 | 1 | 1 | 1 | - | - | 3.0s | „Ich hab keine Zeit.“ |
 
 ## Themensäulen (Schnitt pro Beitrag)
 
 | Säule | Beiträge | Aufrufe | Reichweite | Geteilt | Gespeichert | Profilbesuche |
 |---|---|---|---|---|---|---|
-| geld | 2 | 755.0 | 386.5 | 1.5 | 5.5 | 5.0 |
-| disziplin | 3 | 648.3 | 291.3 | 0.0 | 1.7 | 1.3 |
-| umfeld | 1 | 509.0 | 390.0 | 0.0 | 0.0 | - |
-| fokus | 1 | 390.0 | 279.0 | 1.0 | 1.0 | - |
+| geld | 2 | 760.5 | 391.5 | 1.5 | 5.5 | 5.0 |
+| disziplin | 3 | 695.7 | 318.0 | 0.0 | 1.7 | 1.3 |
+| umfeld | 1 | 513.0 | 392.0 | 0.0 | 0.0 | - |
+| fokus | 1 | 398.0 | 286.0 | 1.0 | 1.0 | - |
+| mindset | 4 | 109.0 | 97.5 | 0.0 | 0.8 | - |
 | karriere | 1 | 105.0 | 85.0 | 0.0 | 0.0 | - |
-| mindset | 4 | 69.5 | 62.5 | 0.0 | 0.2 | - |
 
 ## Woher die Reichweite kommt (7 Tage)
 
 | Quelle | Wert |
 |---|---|
-| reach:FOLLOWER | 619 |
-| reach:NON_FOLLOWER | 526 |
-| views:FOLLOWER | 3818 |
-| views:NON_FOLLOWER | 737 |
+| reach:FOLLOWER | 580 |
+| reach:NON_FOLLOWER | 600 |
+| views:FOLLOWER | 2974 |
+| views:NON_FOLLOWER | 708 |
 | views:UNKNOWN | 2 |
 
 ## Konto pro Tag
 
 | Tag | Aufrufe | Reichweite | Follower-Zuwachs |
 |---|---|---|---|
+| 2026-09-29 | - | 372 | 0 |
 | 2026-09-28 | - | 207 | 3 |
 | 2026-09-27 | - | 344 | 4 |
 | 2026-09-26 | - | 224 | 4 |
@@ -63,4 +64,3 @@ Stand: 29.09.2026 19:44 UTC · letzte 21 Tage
 | 2026-09-11 | - | 21 | 5 |
 | 2026-09-10 | - | 26 | 3 |
 | 2026-09-09 | - | 29 | 3 |
-| 2026-09-08 | - | 49 | 2 |
