@@ -1,7 +1,61 @@
 {
-  "stand": "2026-09-30T12:58:07+00:00",
+  "stand": "2026-10-01T13:50:56+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
+    {
+      "id": "17879115306549182",
+      "zeit": "2026-10-01T11:01:27+0000",
+      "art": "VIDEO",
+      "hook": "Dein Handy ist ein Babysitter für Erwachsene.",
+      "likes": 0,
+      "kommentare": 0,
+      "thema": "babysitter",
+      "saeule": "fokus",
+      "views": 46,
+      "reach": 31,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 3182,
+      "ig_reels_video_view_total_time": 101828
+    },
+    {
+      "id": "18029941439683637",
+      "zeit": "2026-09-30T17:03:13+0000",
+      "art": "CAROUSEL_ALBUM",
+      "hook": "7 Wahrheiten, die dir mit 20 keiner sagt. 🧠",
+      "likes": 4,
+      "kommentare": 2,
+      "thema": "wahrheiten-mit-20",
+      "saeule": "mindset",
+      "views": 222,
+      "reach": 96,
+      "comments": 2,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 9,
+      "profile_visits": 0,
+      "follows": 0
+    },
+    {
+      "id": "17985490329082517",
+      "zeit": "2026-09-30T13:42:49+0000",
+      "art": "VIDEO",
+      "hook": "Die meisten arbeiten 40 Jahre, um sich zwei Wochen Urlaub im Jahr zu v",
+      "likes": 2,
+      "kommentare": 0,
+      "thema": "40-jahre",
+      "saeule": "karriere",
+      "views": 378,
+      "reach": 294,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 3,
+      "ig_reels_avg_watch_time": 3411,
+      "ig_reels_video_view_total_time": 1030148
+    },
     {
       "id": "18171207598455343",
       "zeit": "2026-09-29T18:39:29+0000",
@@ -11,14 +65,14 @@
       "kommentare": 0,
       "thema": "nicht-faul",
       "saeule": "mindset",
-      "views": 157,
+      "views": 159,
       "reach": 139,
       "comments": 0,
       "shares": 0,
-      "saved": 2,
-      "total_interactions": 4,
-      "ig_reels_avg_watch_time": 2525,
-      "ig_reels_video_view_total_time": 356072
+      "saved": 1,
+      "total_interactions": 3,
+      "ig_reels_avg_watch_time": 2536,
+      "ig_reels_video_view_total_time": 362710
     },
     {
       "id": "18122056243697641",
@@ -29,8 +83,8 @@
       "kommentare": 3,
       "thema": "morgenroutine",
       "saeule": "disziplin",
-      "views": 700,
-      "reach": 323,
+      "views": 752,
+      "reach": 342,
       "comments": 3,
       "shares": 0,
       "saved": 2,
@@ -83,8 +137,8 @@
       "kommentare": 0,
       "thema": "ein-prozent",
       "saeule": "disziplin",
-      "views": 629,
-      "reach": 287,
+      "views": 640,
+      "reach": 293,
       "comments": 0,
       "shares": 0,
       "saved": 2,
@@ -119,8 +173,8 @@
       "kommentare": 0,
       "thema": "erfolg-kostet",
       "saeule": "disziplin",
-      "views": 758,
-      "reach": 344,
+      "views": 761,
+      "reach": 347,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -155,8 +209,8 @@
       "kommentare": 5,
       "thema": "pleite-mit-30",
       "saeule": "geld",
-      "views": 1396,
-      "reach": 678,
+      "views": 1410,
+      "reach": 690,
       "comments": 5,
       "shares": 3,
       "saved": 9,
@@ -187,18 +241,18 @@
       "zeit": "2026-09-19T17:42:48+0000",
       "art": "VIDEO",
       "hook": "Die Party läuft auch ohne dich. Dein Ziel nicht.",
-      "likes": 8,
+      "likes": 9,
       "kommentare": 0,
       "thema": "party",
       "saeule": "umfeld",
-      "views": 513,
-      "reach": 392,
+      "views": 519,
+      "reach": 396,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 13,
-      "ig_reels_avg_watch_time": 2253,
-      "ig_reels_video_view_total_time": 957852
+      "total_interactions": 14,
+      "ig_reels_avg_watch_time": 2282,
+      "ig_reels_video_view_total_time": 979141
     },
     {
       "id": "18019254668926357",
@@ -220,10 +274,6 @@
     }
   ],
   "verlauf": {
-    "2026-09-09": {
-      "reach": 29,
-      "follower_count": 3
-    },
     "2026-09-10": {
       "reach": 26,
       "follower_count": 3
@@ -302,14 +352,18 @@
     },
     "2026-09-29": {
       "reach": 372,
+      "follower_count": 1
+    },
+    "2026-09-30": {
+      "reach": 464,
       "follower_count": 0
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 600,
-    "reach:FOLLOWER": 580,
-    "views:UNKNOWN": 2,
-    "views:NON_FOLLOWER": 708,
-    "views:FOLLOWER": 2974
+    "reach:NON_FOLLOWER": 713,
+    "reach:FOLLOWER": 600,
+    "views:UNKNOWN": 3,
+    "views:NON_FOLLOWER": 891,
+    "views:FOLLOWER": 3149
   }
 }
