@@ -1,24 +1,60 @@
 {
-  "stand": "2026-10-02T13:06:20+00:00",
+  "stand": "2026-10-03T11:59:17+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
+    {
+      "id": "18431158666196887",
+      "zeit": "2026-10-03T11:01:08+0000",
+      "art": "VIDEO",
+      "hook": "Jeder will den Körper. Keiner will den Hunger.",
+      "likes": 0,
+      "kommentare": 0,
+      "thema": "hunger",
+      "saeule": "disziplin",
+      "views": 4,
+      "reach": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "ig_reels_avg_watch_time": 1598,
+      "ig_reels_video_view_total_time": 1598
+    },
+    {
+      "id": "18217100911342634",
+      "zeit": "2026-10-02T17:03:05+0000",
+      "art": "CAROUSEL_ALBUM",
+      "hook": "Du weißt nicht, wo dein Geld hingeht? Diese Regel ändert das. 💸",
+      "likes": 1,
+      "kommentare": 1,
+      "thema": "50-30-20",
+      "saeule": "geld",
+      "views": 181,
+      "reach": 79,
+      "comments": 1,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 2,
+      "profile_visits": 1,
+      "follows": 0
+    },
     {
       "id": "18123024259934292",
       "zeit": "2026-10-02T11:00:26+0000",
       "art": "VIDEO",
       "hook": "Du hast keine Angst vorm Scheitern. Du hast Angst davor, was sie dann ",
-      "likes": 0,
-      "kommentare": 0,
+      "likes": 3,
+      "kommentare": 1,
       "thema": "angst",
       "saeule": "mindset",
-      "views": 107,
-      "reach": 78,
-      "comments": 0,
+      "views": 274,
+      "reach": 217,
+      "comments": 1,
       "shares": 0,
       "saved": 0,
-      "total_interactions": 1,
-      "ig_reels_avg_watch_time": 2649,
-      "ig_reels_video_view_total_time": 206678
+      "total_interactions": 6,
+      "ig_reels_avg_watch_time": 2905,
+      "ig_reels_video_view_total_time": 633324
     },
     {
       "id": "18094603562393575",
@@ -29,8 +65,8 @@
       "kommentare": 2,
       "thema": "geldregeln",
       "saeule": "geld",
-      "views": 299,
-      "reach": 129,
+      "views": 375,
+      "reach": 163,
       "comments": 2,
       "shares": 0,
       "saved": 1,
@@ -61,16 +97,16 @@
       "zeit": "2026-09-30T17:03:13+0000",
       "art": "CAROUSEL_ALBUM",
       "hook": "7 Wahrheiten, die dir mit 20 keiner sagt. 🧠",
-      "likes": 4,
+      "likes": 5,
       "kommentare": 3,
       "thema": "wahrheiten-mit-20",
       "saeule": "mindset",
-      "views": 266,
-      "reach": 112,
+      "views": 298,
+      "reach": 122,
       "comments": 3,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 10,
+      "total_interactions": 11,
       "profile_visits": 0,
       "follows": 0
     },
@@ -79,18 +115,18 @@
       "zeit": "2026-09-30T13:42:49+0000",
       "art": "VIDEO",
       "hook": "Die meisten arbeiten 40 Jahre, um sich zwei Wochen Urlaub im Jahr zu v",
-      "likes": 4,
+      "likes": 5,
       "kommentare": 1,
       "thema": "40-jahre",
       "saeule": "karriere",
-      "views": 421,
-      "reach": 323,
+      "views": 447,
+      "reach": 342,
       "comments": 1,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 8,
-      "ig_reels_avg_watch_time": 3497,
-      "ig_reels_video_view_total_time": 1161049
+      "total_interactions": 9,
+      "ig_reels_avg_watch_time": 3523,
+      "ig_reels_video_view_total_time": 1236911
     },
     {
       "id": "18171207598455343",
@@ -119,8 +155,8 @@
       "kommentare": 3,
       "thema": "morgenroutine",
       "saeule": "disziplin",
-      "views": 786,
-      "reach": 357,
+      "views": 799,
+      "reach": 366,
       "comments": 3,
       "shares": 0,
       "saved": 2,
@@ -173,8 +209,8 @@
       "kommentare": 0,
       "thema": "ein-prozent",
       "saeule": "disziplin",
-      "views": 645,
-      "reach": 295,
+      "views": 658,
+      "reach": 302,
       "comments": 0,
       "shares": 0,
       "saved": 2,
@@ -209,8 +245,8 @@
       "kommentare": 0,
       "thema": "erfolg-kostet",
       "saeule": "disziplin",
-      "views": 772,
-      "reach": 350,
+      "views": 786,
+      "reach": 355,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -227,14 +263,14 @@
       "kommentare": 0,
       "thema": "reich-aussehen",
       "saeule": "geld",
-      "views": 125,
-      "reach": 105,
+      "views": 126,
+      "reach": 106,
       "comments": 0,
       "shares": 0,
       "saved": 2,
       "total_interactions": 5,
-      "ig_reels_avg_watch_time": 2896,
-      "ig_reels_video_view_total_time": 306985
+      "ig_reels_avg_watch_time": 2875,
+      "ig_reels_video_view_total_time": 307630
     },
     {
       "id": "18384327931231024",
@@ -245,8 +281,8 @@
       "kommentare": 5,
       "thema": "pleite-mit-30",
       "saeule": "geld",
-      "views": 1428,
-      "reach": 693,
+      "views": 1437,
+      "reach": 696,
       "comments": 5,
       "shares": 3,
       "saved": 9,
@@ -281,14 +317,14 @@
       "kommentare": 0,
       "thema": "party",
       "saeule": "umfeld",
-      "views": 530,
-      "reach": 401,
+      "views": 535,
+      "reach": 403,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 14,
-      "ig_reels_avg_watch_time": 2276,
-      "ig_reels_video_view_total_time": 992760
+      "ig_reels_avg_watch_time": 2304,
+      "ig_reels_video_view_total_time": 1009317
     },
     {
       "id": "18019254668926357",
@@ -310,10 +346,6 @@
     }
   ],
   "verlauf": {
-    "2026-09-11": {
-      "reach": 21,
-      "follower_count": 5
-    },
     "2026-09-12": {
       "reach": 30,
       "follower_count": 1
@@ -392,14 +424,18 @@
     },
     "2026-10-01": {
       "reach": 341,
+      "follower_count": 6
+    },
+    "2026-10-02": {
+      "reach": 363,
       "follower_count": 0
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 751,
-    "reach:FOLLOWER": 634,
+    "reach:NON_FOLLOWER": 693,
+    "reach:FOLLOWER": 665,
     "views:UNKNOWN": 1,
-    "views:NON_FOLLOWER": 1003,
-    "views:FOLLOWER": 3516
+    "views:NON_FOLLOWER": 999,
+    "views:FOLLOWER": 3917
   }
 }
