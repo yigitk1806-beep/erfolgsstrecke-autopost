@@ -1,0 +1,232 @@
+{
+  "24-stunden": {
+    "format": "carousel",
+    "mechanik": "zahlen",
+    "saeule": "fokus"
+  },
+  "2500-netto": {
+    "format": "carousel",
+    "mechanik": "zahlen",
+    "saeule": "geld"
+  },
+  "40-jahre": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "40-stunden": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "geld"
+  },
+  "50-30-20": {
+    "format": "carousel",
+    "mechanik": "anleitung",
+    "saeule": "sonstiges"
+  },
+  "angst": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "arm-reich-denkt": {
+    "format": "carousel",
+    "mechanik": "vergleich",
+    "saeule": "geld"
+  },
+  "auftauchen": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "babysitter": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "beschaeftigt": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "fokus"
+  },
+  "chef-sein": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "karriere"
+  },
+  "chef-zahlt": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "daten-gesammelt": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
+  "denselben-tag": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "ein-prozent": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "sonstiges"
+  },
+  "erfolg-kostet": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "sonstiges"
+  },
+  "freitagabend": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "freunde": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "fuenf-stunden": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "fokus"
+  },
+  "geldregeln": {
+    "format": "carousel",
+    "mechanik": "anleitung",
+    "saeule": "sonstiges"
+  },
+  "harte-fragen": {
+    "format": "carousel",
+    "mechanik": "frage",
+    "saeule": "sonstiges"
+  },
+  "hunger": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "in-5-jahren": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "keine-zeit": {
+    "format": "reel",
+    "mechanik": "zahlen",
+    "saeule": "sonstiges"
+  },
+  "kontostand": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "merken-erst": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "umfeld"
+  },
+  "morgenroutine": {
+    "format": "carousel",
+    "mechanik": "anleitung",
+    "saeule": "sonstiges"
+  },
+  "neuer-monat": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "nicht-aufgehoert": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "nicht-faul": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "ohne-reden": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
+  "party": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "pleite-mit-30": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "sonstiges"
+  },
+  "probleme": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "reich-aussehen": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "saetze-freunde": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "umfeld"
+  },
+  "selbststaendig": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "karriere"
+  },
+  "sie-lachen": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "sonntagabend": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "sparen": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "sonstiges"
+  },
+  "ueberleben": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "fokus"
+  },
+  "uebersaettigt": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "sonstiges"
+  },
+  "unter-wert": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "sonstiges"
+  },
+  "wahrheiten-mit-20": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "sonstiges"
+  },
+  "wort-halten": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
+  "zu-viel-bezahlt": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "sonstiges"
+  }
+}

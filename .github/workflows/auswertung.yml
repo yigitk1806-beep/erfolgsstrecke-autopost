@@ -28,6 +28,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python auswertung.py
+      - name: Daraus lernen
+        run: python lernen.py
       - name: Bericht speichern
         if: always()
         run: |
