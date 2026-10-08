@@ -24,6 +24,26 @@
     "mechanik": "anleitung",
     "saeule": "sonstiges"
   },
+  "abos": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "geld"
+  },
+  "alte-leben": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "umfeld"
+  },
+  "alternative": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "karriere"
+  },
+  "angestellt-unternehmerisch": {
+    "format": "carousel",
+    "mechanik": "vergleich",
+    "saeule": "karriere"
+  },
   "angst": {
     "format": "reel",
     "mechanik": "psychologie",
@@ -34,20 +54,50 @@
     "mechanik": "vergleich",
     "saeule": "geld"
   },
+  "aufgeschoben": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
   "auftauchen": {
     "format": "reel",
     "mechanik": "statement",
     "saeule": "sonstiges"
+  },
+  "ausbremser": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "umfeld"
+  },
+  "auto-kosten": {
+    "format": "carousel",
+    "mechanik": "zahlen",
+    "saeule": "geld"
   },
   "babysitter": {
     "format": "reel",
     "mechanik": "psychologie",
     "saeule": "sonstiges"
   },
+  "benachrichtigungen": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "fokus"
+  },
   "beschaeftigt": {
     "format": "image",
     "mechanik": "statement",
     "saeule": "fokus"
+  },
+  "beschaeftigt-produktiv": {
+    "format": "carousel",
+    "mechanik": "vergleich",
+    "saeule": "fokus"
+  },
+  "chancen-arbeit": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "mindset"
   },
   "chef-sein": {
     "format": "reel",
@@ -69,15 +119,45 @@
     "mechanik": "psychologie",
     "saeule": "sonstiges"
   },
+  "dreissig-tage": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "disziplin"
+  },
   "ein-prozent": {
     "format": "carousel",
     "mechanik": "aufzaehlung",
     "saeule": "sonstiges"
   },
+  "eine-stunde": {
+    "format": "carousel",
+    "mechanik": "zahlen",
+    "saeule": "fokus"
+  },
   "erfolg-kostet": {
     "format": "carousel",
     "mechanik": "aufzaehlung",
     "saeule": "sonstiges"
+  },
+  "erreichbar": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "fokus"
+  },
+  "falscher-raum": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "umfeld"
+  },
+  "finanzcheck": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "geld"
+  },
+  "fragen-bewerbung": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "karriere"
   },
   "freitagabend": {
     "format": "reel",
@@ -89,15 +169,45 @@
     "mechanik": "psychologie",
     "saeule": "sonstiges"
   },
+  "freunde-vergleich": {
+    "format": "carousel",
+    "mechanik": "vergleich",
+    "saeule": "umfeld"
+  },
   "fuenf-stunden": {
     "format": "reel",
     "mechanik": "statement",
     "saeule": "fokus"
   },
+  "fuenfundvierzig-tage": {
+    "format": "carousel",
+    "mechanik": "zahlen",
+    "saeule": "fokus"
+  },
+  "gehaltsgespraech": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "karriere"
+  },
   "geldregeln": {
     "format": "carousel",
     "mechanik": "anleitung",
     "saeule": "sonstiges"
+  },
+  "gepraegt": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "umfeld"
+  },
+  "handy-entschaerfen": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "fokus"
+  },
+  "handy-schwaeche": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "fokus"
   },
   "harte-fragen": {
     "format": "carousel",
@@ -114,15 +224,50 @@
     "mechanik": "psychologie",
     "saeule": "sonstiges"
   },
+  "kaffee-rate": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "geld"
+  },
+  "kalender": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
   "keine-zeit": {
     "format": "reel",
     "mechanik": "zahlen",
     "saeule": "sonstiges"
   },
+  "kindern-beibringen": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "mindset"
+  },
+  "konsum-investition": {
+    "format": "carousel",
+    "mechanik": "vergleich",
+    "saeule": "geld"
+  },
+  "konsumschulden": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "geld"
+  },
   "kontostand": {
     "format": "reel",
     "mechanik": "statement",
     "saeule": "sonstiges"
+  },
+  "lebenslauf": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "karriere"
+  },
+  "loch": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "geld"
   },
   "merken-erst": {
     "format": "reel",
@@ -134,6 +279,16 @@
     "mechanik": "anleitung",
     "saeule": "sonstiges"
   },
+  "multitasking": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "fokus"
+  },
+  "netto-rest": {
+    "format": "reel",
+    "mechanik": "psychologie",
+    "saeule": "geld"
+  },
   "neuer-monat": {
     "format": "reel",
     "mechanik": "psychologie",
@@ -144,10 +299,30 @@
     "mechanik": "statement",
     "saeule": "sonstiges"
   },
+  "nicht-eingeplant": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "geld"
+  },
   "nicht-faul": {
     "format": "reel",
     "mechanik": "psychologie",
     "saeule": "sonstiges"
+  },
+  "nicht-mehr-sagen": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "mindset"
+  },
+  "nie-null": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
+  "ohne-motivation": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "disziplin"
   },
   "ohne-reden": {
     "format": "image",
@@ -159,29 +334,74 @@
     "mechanik": "statement",
     "saeule": "sonstiges"
   },
+  "pausen": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
   "pleite-mit-30": {
     "format": "carousel",
     "mechanik": "aufzaehlung",
     "saeule": "sonstiges"
+  },
+  "potenzial": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "mindset"
+  },
+  "preis-fragen": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "geld"
+  },
+  "preis-neid": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "umfeld"
   },
   "probleme": {
     "format": "reel",
     "mechanik": "psychologie",
     "saeule": "sonstiges"
   },
+  "rechnung-erfahrung": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
   "reich-aussehen": {
     "format": "reel",
     "mechanik": "psychologie",
     "saeule": "sonstiges"
+  },
+  "ruecklage": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "geld"
   },
   "saetze-freunde": {
     "format": "carousel",
     "mechanik": "aufzaehlung",
     "saeule": "umfeld"
   },
+  "schweigen": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "umfeld"
+  },
+  "selbst-gebaut": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "karriere"
+  },
   "selbststaendig": {
     "format": "carousel",
     "mechanik": "aufzaehlung",
+    "saeule": "karriere"
+  },
+  "sichtbar": {
+    "format": "reel",
+    "mechanik": "statement",
     "saeule": "karriere"
   },
   "sie-lachen": {
@@ -194,10 +414,40 @@
     "mechanik": "statement",
     "saeule": "sonstiges"
   },
+  "sonntagsplan": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "disziplin"
+  },
   "sparen": {
     "format": "reel",
     "mechanik": "statement",
     "saeule": "sonstiges"
+  },
+  "stillstand": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "geld"
+  },
+  "tabelle": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "geld"
+  },
+  "tabs": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "fokus"
+  },
+  "tiefpunkt": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "mindset"
+  },
+  "treue": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "karriere"
   },
   "ueberleben": {
     "format": "reel",
@@ -209,24 +459,74 @@
     "mechanik": "psychologie",
     "saeule": "sonstiges"
   },
+  "umfeld-aufbauen": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "umfeld"
+  },
   "unter-wert": {
     "format": "carousel",
     "mechanik": "aufzaehlung",
     "saeule": "sonstiges"
+  },
+  "verfuegbar": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "fokus"
+  },
+  "verfuegbarkeit-chef": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "karriere"
+  },
+  "vertrag": {
+    "format": "image",
+    "mechanik": "statement",
+    "saeule": "karriere"
+  },
+  "vierzig": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "mindset"
   },
   "wahrheiten-mit-20": {
     "format": "carousel",
     "mechanik": "aufzaehlung",
     "saeule": "sonstiges"
   },
+  "was-du-kannst": {
+    "format": "carousel",
+    "mechanik": "aufzaehlung",
+    "saeule": "karriere"
+  },
+  "wetter-klima": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
   "wort-halten": {
     "format": "reel",
     "mechanik": "statement",
     "saeule": "disziplin"
   },
+  "zehn-euro": {
+    "format": "carousel",
+    "mechanik": "zahlen",
+    "saeule": "geld"
+  },
   "zu-viel-bezahlt": {
     "format": "carousel",
     "mechanik": "aufzaehlung",
     "saeule": "sonstiges"
+  },
+  "zwanzig-uhr": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "disziplin"
+  },
+  "zweiter-tag": {
+    "format": "reel",
+    "mechanik": "statement",
+    "saeule": "disziplin"
   }
 }
