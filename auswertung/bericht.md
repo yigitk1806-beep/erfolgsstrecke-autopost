@@ -1,38 +1,40 @@
 # Zahlen @erfolgsstrecke
-Stand: 23.10.2026 12:02 UTC · letzte 21 Tage
+Stand: 24.10.2026 11:32 UTC · letzte 21 Tage
 
 ## Beiträge
 
 | Zeit | Art | Aufrufe | Reichweite | Likes | Komm. | Geteilt | Gesp. | Profil | Follows | Watchtime | Aufhänger |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 23.10. 13:00 | Reel | 8 | 0 | 0 | 0 | 0 | 0 | - | - | 2.1s | Du brauchst nicht um 5 Uhr aufstehen. Du brauchst einen Plan für 20 Uh |
-| 22.10. 19:03 | Karussell | 133 | 56 | 2 | 1 | 0 | 0 | 0 | 0 | - | Dein Handy in 6 Schritten entschärfen. 📵 |
+| 24.10. 13:00 | Reel | 26 | 0 | 0 | 0 | 0 | 0 | - | - | 0.0s | Du hast nicht zu wenig Zeit. Du hast zu viele offene Tabs im Kopf. |
+| 23.10. 19:02 | Karussell | 204 | 83 | 4 | 1 | 0 | 1 | 0 | 0 | - | 7 Dinge, die vermögende Familien ihren Kindern früh beibringen. 🧠 |
+| 23.10. 13:00 | Reel | 134 | 121 | 0 | 0 | 0 | 0 | - | - | 3.1s | Du brauchst nicht um 5 Uhr aufstehen. Du brauchst einen Plan für 20 Uh |
+| 22.10. 19:03 | Karussell | 163 | 66 | 2 | 1 | 0 | 0 | 0 | 0 | - | Dein Handy in 6 Schritten entschärfen. 📵 |
 | 22.10. 13:00 | Reel | 104 | 92 | 1 | 0 | 0 | 0 | - | - | 3.5s | Die meisten rechnen mit dem Brutto, leben vom Netto und sparen vom Res |
-| 21.10. 19:06 | Bild | 340 | 218 | 5 | 0 | 1 | 0 | 0 | 0 | - | Wer ständig erreichbar ist, arbeitet an den Zielen von allen anderen. |
+| 21.10. 19:06 | Bild | 409 | 260 | 7 | 0 | 1 | 0 | 0 | 0 | - | Wer ständig erreichbar ist, arbeitet an den Zielen von allen anderen. |
 | 21.10. 13:40 | Reel | 135 | 129 | 1 | 0 | 0 | 0 | - | - | 1.5s | Ein Rückschlag ist kein Stopp. Es ist eine Rechnung für Erfahrung. |
-| 20.10. 19:04 | Karussell | 297 | 126 | 3 | 0 | 1 | 0 | 0 | 0 | - | 5 Sätze, die dich im Gehaltsgespräch teuer machen. 💼 |
+| 20.10. 19:04 | Karussell | 313 | 133 | 3 | 0 | 1 | 0 | 0 | 0 | - | 5 Sätze, die dich im Gehaltsgespräch teuer machen. 💼 |
 | 20.10. 13:00 | Reel | 102 | 90 | 1 | 0 | 0 | 0 | - | - | 2.6s | Mit 20 zählt Potenzial. Mit 30 zählt, was du daraus gemacht hast. |
-| 19.10. 19:11 | Karussell | 461 | 181 | 3 | 1 | 0 | 0 | 0 | 0 | - | 10 € am Tag. Klingt nach wenig. 💸 |
+| 19.10. 19:11 | Karussell | 488 | 193 | 3 | 1 | 0 | 0 | 0 | 0 | - | 10 € am Tag. Klingt nach wenig. 💸 |
 | 19.10. 13:00 | Reel | 120 | 103 | 2 | 0 | 1 | 0 | - | - | 3.5s | Wenn du der Klügste im Raum bist, bist du im falschen Raum. |
-| 18.10. 19:02 | Karussell | 308 | 149 | 4 | 3 | 0 | 0 | 1 | 0 | - | Es gibt zwei Sorten Freunde. Beide meinen es gut. |
+| 18.10. 19:02 | Karussell | 323 | 154 | 4 | 3 | 0 | 0 | 1 | 0 | - | Es gibt zwei Sorten Freunde. Beide meinen es gut. |
 | 18.10. 13:00 | Reel | 83 | 69 | 0 | 0 | 0 | 0 | - | - | 2.9s | Jede Benachrichtigung entscheidet, woran du gerade denkst. Nicht du. |
-| 17.10. 19:02 | Karussell | 342 | 143 | 3 | 0 | 0 | 0 | 1 | 0 | - | So fängst du an, wenn du null Motivation hast. 🧠 |
+| 17.10. 19:02 | Karussell | 357 | 149 | 3 | 0 | 0 | 0 | 1 | 0 | - | So fängst du an, wenn du null Motivation hast. 🧠 |
 | 17.10. 13:00 | Reel | 86 | 74 | 1 | 0 | 0 | 0 | - | - | 2.1s | Motivation ist Wetter. Disziplin ist Klima. |
-| 16.10. 19:00 | Bild | 466 | 308 | 3 | 0 | 0 | 0 | 0 | 0 | - | Dein Gehalt steigt nicht mit deiner Erfahrung. Es steigt mit deiner Al |
+| 16.10. 19:00 | Bild | 484 | 319 | 3 | 0 | 0 | 0 | 0 | 0 | - | Dein Gehalt steigt nicht mit deiner Erfahrung. Es steigt mit deiner Al |
 | 16.10. 13:00 | Reel | 130 | 118 | 4 | 0 | 0 | 1 | - | - | 2.9s | Treue wird im Job selten bezahlt. Wechsel wird bezahlt. |
-| 15.10. 19:03 | Karussell | 370 | 155 | 2 | 0 | 0 | 1 | 0 | 0 | - | 6 Kosten, die fast niemand einplant – und die jedes Jahr kommen. 💸 |
+| 15.10. 19:03 | Karussell | 380 | 159 | 2 | 0 | 0 | 1 | 0 | 0 | - | 6 Kosten, die fast niemand einplant – und die jedes Jahr kommen. 💸 |
 | 15.10. 13:00 | Reel | 118 | 109 | 0 | 0 | 0 | 0 | - | - | 2.7s | Den 5-Euro-Kaffee merkst du. Die 400-Euro-Autorate nicht. |
-| 14.10. 19:00 | Bild | 426 | 279 | 4 | 1 | 0 | 0 | 2 | 0 | - | Die meisten reden über Ziele, weil Reden sich wie Fortschritt anfühlt. |
+| 14.10. 19:00 | Bild | 436 | 288 | 4 | 1 | 0 | 0 | 2 | 0 | - | Die meisten reden über Ziele, weil Reden sich wie Fortschritt anfühlt. |
 | 14.10. 13:00 | Reel | 150 | 133 | 0 | 0 | 0 | 1 | - | - | 3.0s | Die Leute merken erst, dass du dich veränderst, wenn du keine Zeit meh |
-| 13.10. 19:02 | Karussell | 577 | 247 | 5 | 1 | 0 | 1 | 1 | 0 | - | 5 Dinge, die dir über Selbstständigkeit keiner sagt. 🧾 |
+| 13.10. 19:02 | Karussell | 594 | 257 | 5 | 1 | 0 | 1 | 1 | 0 | - | 5 Dinge, die dir über Selbstständigkeit keiner sagt. 🧾 |
 | 13.10. 13:00 | Reel | 167 | 150 | 1 | 0 | 0 | 0 | - | - | 3.6s | Mit 40 Stunden hältst du dein Leben am Laufen. Aufgebaut wird in den S |
-| 12.10. 20:59 | Karussell | 519 | 199 | 3 | 0 | 0 | 1 | 0 | 0 | - | 24 Stunden. So verteilt sie der Durchschnitt. ⏳ |
-| 12.10. 13:00 | Reel | 511 | 400 | 12 | 0 | 2 | 2 | - | - | 3.3s | Selbstbewusstsein kommt nicht davon, dass du gut über dich denkst. Es  |
-| 11.10. 19:03 | Karussell | 786 | 384 | 5 | 0 | 2 | 3 | 0 | 0 | - | 6 Sätze, die du hörst, wenn du anfängst, dich zu verändern. 👀 |
+| 12.10. 20:59 | Karussell | 536 | 207 | 3 | 0 | 0 | 1 | 0 | 0 | - | 24 Stunden. So verteilt sie der Durchschnitt. ⏳ |
+| 12.10. 13:00 | Reel | 516 | 404 | 12 | 0 | 2 | 2 | - | - | 3.3s | Selbstbewusstsein kommt nicht davon, dass du gut über dich denkst. Es  |
+| 11.10. 19:03 | Karussell | 807 | 393 | 5 | 0 | 2 | 3 | 0 | 0 | - | 6 Sätze, die du hörst, wenn du anfängst, dich zu verändern. 👀 |
 | 11.10. 13:00 | Reel | 147 | 139 | 0 | 0 | 0 | 0 | - | - | 1.9s | Veränderung fühlt sich falsch an. Das ist kein Zeichen, dass sie falsc |
-| 10.10. 19:00 | Bild | 536 | 343 | 4 | 3 | 1 | 0 | 1 | 0 | - | Beschäftigt sein ist kein Zeichen von Fortschritt. Oft ist es nur das  |
+| 10.10. 19:00 | Bild | 544 | 348 | 4 | 3 | 1 | 0 | 1 | 0 | - | Beschäftigt sein ist kein Zeichen von Fortschritt. Oft ist es nur das  |
 | 10.10. 13:00 | Reel | 163 | 149 | 1 | 0 | 0 | 0 | - | - | 3.5s | Selbstständig heißt nicht, dass dir keiner mehr reinredet. Es heißt, d |
-| 09.10. 19:02 | Karussell | 511 | 215 | 3 | 3 | 0 | 0 | 1 | 0 | - | 2.500 € netto. Hier gehen sie hin. 💸 |
+| 09.10. 19:02 | Karussell | 513 | 216 | 3 | 3 | 0 | 0 | 1 | 0 | - | 2.500 € netto. Hier gehen sie hin. 💸 |
 | 09.10. 13:00 | Reel | 156 | 144 | 1 | 0 | 0 | 1 | - | - | 2.0s | Du hast ungefähr fünf Stunden am Tag frei. Du nennst sie nur Feieraben |
 | 08.10. 19:02 | Karussell | 568 | 264 | 6 | 1 | 0 | 3 | 0 | 0 | - | Arm denkt. Reich denkt. 💭 |
 | 08.10. 13:00 | Reel | 662 | 500 | 7 | 1 | 0 | 0 | - | - | 3.2s | Dein teuerster Fehler steht in keiner Bilanz. Es ist der Versuch, den  |
@@ -43,8 +45,6 @@ Stand: 23.10.2026 12:02 UTC · letzte 21 Tage
 | 05.10. 20:21 | Reel | 169 | 157 | 1 | 0 | 0 | 0 | - | - | 3.2s | Dein Chef zahlt dir genau so viel, dass du bleibst. Nicht genug, dass  |
 | 05.10. 13:00 | Reel | 115 | 106 | 1 | 0 | 0 | 0 | - | - | 2.8s | Du wirst nicht für deine Stunden bezahlt. Sondern für Probleme, die du |
 | 04.10. 19:03 | Karussell | 565 | 251 | 7 | 5 | 0 | 2 | 1 | 0 | - | 5 harte Fragen, die du dir heute stellen solltest. 🧠 |
-| 04.10. 14:15 | Reel | 564 | 459 | 6 | 0 | 0 | 0 | - | - | 3.5s | Zeig mir, mit wem du freitags abhängst, und ich sage dir, wo du in 5 J |
-| 03.10. 19:03 | Karussell | 572 | 253 | 5 | 1 | 1 | 1 | 1 | 0 | - | 7 Dinge, für die du mit 25 zu viel bezahlst. 💸 |
 
 ## Themensäulen (Schnitt pro Beitrag)
 
@@ -52,25 +52,27 @@ Stand: 23.10.2026 12:02 UTC · letzte 21 Tage
 |---|---|---|---|---|---|---|
 | mindset | 1 | 565.0 | 251.0 | 0.0 | 2.0 | 1.0 |
 | fokus | 1 | 436.0 | 323.0 | 0.0 | 1.0 | - |
-| umfeld | 2 | 358.5 | 299.5 | 0.0 | 0.0 | - |
-| geld | 2 | 348.0 | 181.0 | 0.5 | 0.5 | 1.0 |
 | karriere | 3 | 310.7 | 189.3 | 0.7 | 1.0 | 0.0 |
-| sonstiges | 31 | 305.9 | 182.8 | 0.3 | 0.5 | 0.5 |
+| sonstiges | 33 | 306.6 | 182.2 | 0.2 | 0.5 | 0.4 |
+| umfeld | 1 | 153.0 | 140.0 | 0.0 | 0.0 | - |
+| geld | 1 | 124.0 | 109.0 | 0.0 | 0.0 | - |
 
 ## Woher die Reichweite kommt (7 Tage)
 
 | Quelle | Wert |
 |---|---|
 | reach:FOLLOWER | 676 |
-| reach:NON_FOLLOWER | 719 |
-| views:FOLLOWER | 4916 |
-| views:NON_FOLLOWER | 857 |
+| reach:NON_FOLLOWER | 737 |
+| views:FOLLOWER | 4917 |
+| views:NON_FOLLOWER | 871 |
+| views:UNKNOWN | 1 |
 
 ## Konto pro Tag
 
 | Tag | Aufrufe | Reichweite | Follower-Zuwachs |
 |---|---|---|---|
-| 2026-10-22 | - | 302 | 0 |
+| 2026-10-23 | - | 404 | 0 |
+| 2026-10-22 | - | 302 | 8 |
 | 2026-10-21 | - | 455 | 1 |
 | 2026-10-20 | - | 355 | 3 |
 | 2026-10-19 | - | 377 | 0 |
@@ -90,4 +92,3 @@ Stand: 23.10.2026 12:02 UTC · letzte 21 Tage
 | 2026-10-05 | - | 431 | 5 |
 | 2026-10-04 | - | 603 | 1 |
 | 2026-10-03 | - | 444 | 0 |
-| 2026-10-02 | - | 363 | 1 |
