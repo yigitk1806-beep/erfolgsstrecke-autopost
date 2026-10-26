@@ -10,5 +10,8 @@
     "5.jpg",
     "6.jpg"
   ],
-  "approved": true
+  "approved": true,
+  "attempts": 1,
+  "published_id": "18123191566936551",
+  "published_at": "2026-10-26T17:03:02.978403+00:00"
 }
