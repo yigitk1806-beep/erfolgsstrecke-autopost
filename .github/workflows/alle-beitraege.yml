@@ -1,0 +1,39 @@
+name: Alle Beitraege erfassen
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "alle_beitraege.py"
+      - ".github/workflows/alle-beitraege.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-auswertung
+  cancel-in-progress: false
+
+jobs:
+  erfassen:
+    runs-on: ubuntu-latest
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python alle_beitraege.py
+      - name: Ergebnis speichern
+        run: |
+          git config user.name "autopost"
+          git config user.email "autopost@users.noreply.github.com"
+          git add auswertung/alle_beitraege.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Alle Beitraege erfasst"
+            git pull --rebase
+            git push
+          fi
