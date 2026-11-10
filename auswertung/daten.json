@@ -1,7 +1,25 @@
 {
-  "stand": "2026-11-09T16:49:27+00:00",
+  "stand": "2026-11-10T15:12:44+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
+    {
+      "id": "18288742474290607",
+      "zeit": "2026-11-09T20:42:45+0000",
+      "art": "CAROUSEL_ALBUM",
+      "hook": "Eine Stunde früher aufstehen sind 15 ganze Tage im Jahr. ⏳",
+      "likes": 1,
+      "kommentare": 0,
+      "thema": "eine-stunde",
+      "saeule": "sonstiges",
+      "views": 225,
+      "reach": 107,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 2,
+      "profile_visits": 0,
+      "follows": 0
+    },
     {
       "id": "18112080104191409",
       "zeit": "2026-11-08T17:03:30+0000",
@@ -11,12 +29,12 @@
       "kommentare": 1,
       "thema": "nicht-mehr-sagen",
       "saeule": "sonstiges",
-      "views": 316,
-      "reach": 128,
+      "views": 365,
+      "reach": 155,
       "comments": 1,
       "shares": 0,
-      "saved": 0,
-      "total_interactions": 3,
+      "saved": 1,
+      "total_interactions": 4,
       "profile_visits": 2,
       "follows": 0
     },
@@ -29,14 +47,14 @@
       "kommentare": 0,
       "thema": null,
       "saeule": null,
-      "views": 443,
-      "reach": 366,
+      "views": 452,
+      "reach": 373,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 6,
-      "ig_reels_avg_watch_time": 5415,
-      "ig_reels_video_view_total_time": 2068608
+      "ig_reels_avg_watch_time": 5356,
+      "ig_reels_video_view_total_time": 2094245
     },
     {
       "id": "18069717044788732",
@@ -155,8 +173,8 @@
       "kommentare": 0,
       "thema": "fragen-bewerbung",
       "saeule": "sonstiges",
-      "views": 367,
-      "reach": 151,
+      "views": 375,
+      "reach": 155,
       "comments": 0,
       "shares": 0,
       "saved": 2,
@@ -173,14 +191,14 @@
       "kommentare": 4,
       "thema": null,
       "saeule": null,
-      "views": 546,
-      "reach": 407,
+      "views": 550,
+      "reach": 408,
       "comments": 4,
       "shares": 15,
       "saved": 0,
       "total_interactions": 36,
-      "ig_reels_avg_watch_time": 16381,
-      "ig_reels_video_view_total_time": 6978423
+      "ig_reels_avg_watch_time": 16284,
+      "ig_reels_video_view_total_time": 6985939
     },
     {
       "id": "17984732819901122",
@@ -209,8 +227,8 @@
       "kommentare": 0,
       "thema": "preis-fragen",
       "saeule": "sonstiges",
-      "views": 771,
-      "reach": 516,
+      "views": 777,
+      "reach": 520,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -245,8 +263,8 @@
       "kommentare": 0,
       "thema": "ausbremser",
       "saeule": "sonstiges",
-      "views": 578,
-      "reach": 242,
+      "views": 584,
+      "reach": 247,
       "comments": 0,
       "shares": 1,
       "saved": 1,
@@ -281,8 +299,8 @@
       "kommentare": 0,
       "thema": "finanzcheck",
       "saeule": "sonstiges",
-      "views": 378,
-      "reach": 152,
+      "views": 383,
+      "reach": 155,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -317,7 +335,7 @@
       "kommentare": 0,
       "thema": "fuenfundvierzig-tage",
       "saeule": "sonstiges",
-      "views": 633,
+      "views": 634,
       "reach": 271,
       "comments": 0,
       "shares": 0,
@@ -552,56 +570,16 @@
       "thema": "gehaltsgespraech",
       "saeule": "sonstiges",
       "views": 423,
-      "reach": 187,
+      "reach": 188,
       "comments": 0,
       "shares": 1,
       "saved": 0,
       "total_interactions": 7,
       "profile_visits": 0,
       "follows": 0
-    },
-    {
-      "id": "18192092953405645",
-      "zeit": "2026-10-20T11:00:27+0000",
-      "art": "VIDEO",
-      "hook": "Mit 20 zählt Potenzial. Mit 30 zählt, was du daraus gemacht hast.",
-      "likes": 1,
-      "kommentare": 0,
-      "thema": "potenzial",
-      "saeule": "sonstiges",
-      "views": 102,
-      "reach": 90,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 2,
-      "ig_reels_avg_watch_time": 2642,
-      "ig_reels_video_view_total_time": 235177
-    },
-    {
-      "id": "18045485957826886",
-      "zeit": "2026-10-19T17:11:17+0000",
-      "art": "CAROUSEL_ALBUM",
-      "hook": "10 € am Tag. Klingt nach wenig. 💸",
-      "likes": 3,
-      "kommentare": 1,
-      "thema": "zehn-euro",
-      "saeule": "sonstiges",
-      "views": 564,
-      "reach": 224,
-      "comments": 1,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 5,
-      "profile_visits": 0,
-      "follows": 0
     }
   ],
   "verlauf": {
-    "2026-10-19": {
-      "reach": 377,
-      "follower_count": 0
-    },
     "2026-10-20": {
       "reach": 355,
       "follower_count": 3
@@ -680,13 +658,17 @@
     },
     "2026-11-08": {
       "reach": 157,
+      "follower_count": 4
+    },
+    "2026-11-09": {
+      "reach": 154,
       "follower_count": 0
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 716,
-    "reach:FOLLOWER": 636,
-    "views:NON_FOLLOWER": 962,
-    "views:FOLLOWER": 3263
+    "reach:NON_FOLLOWER": 557,
+    "reach:FOLLOWER": 607,
+    "views:FOLLOWER": 2886,
+    "views:NON_FOLLOWER": 786
   }
 }
