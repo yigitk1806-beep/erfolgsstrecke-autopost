@@ -1,22 +1,40 @@
 {
-  "stand": "2026-11-11T14:41:59+00:00",
+  "stand": "2026-11-12T15:34:59+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
+    {
+      "id": "18080702870759962",
+      "zeit": "2026-11-11T17:02:44+0000",
+      "art": "CAROUSEL_ALBUM",
+      "hook": "So baust du dir ein Umfeld auf, das dich nach oben zieht. 🤝",
+      "likes": 0,
+      "kommentare": 0,
+      "thema": "umfeld-aufbauen",
+      "saeule": "sonstiges",
+      "views": 199,
+      "reach": 87,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 0,
+      "profile_visits": 0,
+      "follows": 0
+    },
     {
       "id": "18112080104191409",
       "zeit": "2026-11-08T17:03:30+0000",
       "art": "CAROUSEL_ALBUM",
       "hook": "7 Sätze, die du dir ab 30 abgewöhnen solltest. 🧠",
-      "likes": 2,
+      "likes": 3,
       "kommentare": 1,
       "thema": "nicht-mehr-sagen",
       "saeule": "sonstiges",
-      "views": 398,
-      "reach": 172,
+      "views": 425,
+      "reach": 183,
       "comments": 1,
       "shares": 0,
       "saved": 1,
-      "total_interactions": 4,
+      "total_interactions": 5,
       "profile_visits": 2,
       "follows": 0
     },
@@ -29,14 +47,14 @@
       "kommentare": 0,
       "thema": null,
       "saeule": null,
-      "views": 460,
-      "reach": 375,
+      "views": 471,
+      "reach": 384,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 6,
-      "ig_reels_avg_watch_time": 5282,
-      "ig_reels_video_view_total_time": 2107705
+      "ig_reels_avg_watch_time": 5288,
+      "ig_reels_video_view_total_time": 2157895
     },
     {
       "id": "18069717044788732",
@@ -155,8 +173,8 @@
       "kommentare": 0,
       "thema": "fragen-bewerbung",
       "saeule": "sonstiges",
-      "views": 384,
-      "reach": 159,
+      "views": 393,
+      "reach": 162,
       "comments": 0,
       "shares": 0,
       "saved": 2,
@@ -173,14 +191,14 @@
       "kommentare": 4,
       "thema": null,
       "saeule": null,
-      "views": 557,
-      "reach": 411,
+      "views": 562,
+      "reach": 415,
       "comments": 4,
       "shares": 15,
       "saved": 0,
       "total_interactions": 36,
-      "ig_reels_avg_watch_time": 16380,
-      "ig_reels_video_view_total_time": 7125366
+      "ig_reels_avg_watch_time": 16310,
+      "ig_reels_video_view_total_time": 7160109
     },
     {
       "id": "17984732819901122",
@@ -209,8 +227,8 @@
       "kommentare": 0,
       "thema": "preis-fragen",
       "saeule": "sonstiges",
-      "views": 783,
-      "reach": 524,
+      "views": 790,
+      "reach": 527,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -245,8 +263,8 @@
       "kommentare": 0,
       "thema": "ausbremser",
       "saeule": "sonstiges",
-      "views": 588,
-      "reach": 248,
+      "views": 591,
+      "reach": 251,
       "comments": 0,
       "shares": 1,
       "saved": 1,
@@ -281,8 +299,8 @@
       "kommentare": 0,
       "thema": "finanzcheck",
       "saeule": "sonstiges",
-      "views": 383,
-      "reach": 156,
+      "views": 385,
+      "reach": 157,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -487,49 +505,9 @@
       "total_interactions": 7,
       "profile_visits": 0,
       "follows": 0
-    },
-    {
-      "id": "18117622268085038",
-      "zeit": "2026-10-22T11:00:47+0000",
-      "art": "VIDEO",
-      "hook": "Die meisten rechnen mit dem Brutto, leben vom Netto und sparen vom Res",
-      "likes": 1,
-      "kommentare": 0,
-      "thema": "netto-rest",
-      "saeule": "sonstiges",
-      "views": 104,
-      "reach": 92,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 2,
-      "ig_reels_avg_watch_time": 3514,
-      "ig_reels_video_view_total_time": 316275
-    },
-    {
-      "id": "18283879534290127",
-      "zeit": "2026-10-21T17:06:12+0000",
-      "art": "IMAGE",
-      "hook": "Wer ständig erreichbar ist, arbeitet an den Zielen von allen anderen.",
-      "likes": 9,
-      "kommentare": 0,
-      "thema": "erreichbar",
-      "saeule": "sonstiges",
-      "views": 622,
-      "reach": 406,
-      "comments": 0,
-      "shares": 1,
-      "saved": 1,
-      "total_interactions": 14,
-      "profile_visits": 1,
-      "follows": 0
     }
   ],
   "verlauf": {
-    "2026-10-21": {
-      "reach": 455,
-      "follower_count": 1
-    },
     "2026-10-22": {
       "reach": 302,
       "follower_count": 8
@@ -609,12 +587,16 @@
     "2026-11-10": {
       "reach": 118,
       "follower_count": 0
+    },
+    "2026-11-11": {
+      "reach": 126,
+      "follower_count": 0
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 417,
-    "reach:FOLLOWER": 560,
-    "views:FOLLOWER": 2415,
-    "views:NON_FOLLOWER": 598
+    "reach:NON_FOLLOWER": 264,
+    "reach:FOLLOWER": 535,
+    "views:NON_FOLLOWER": 446,
+    "views:FOLLOWER": 2069
   }
 }
