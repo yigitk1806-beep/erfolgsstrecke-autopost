@@ -1,13 +1,13 @@
 # Zahlen @erfolgsstrecke
-Stand: 14.11.2026 13:46 UTC · letzte 21 Tage
+Stand: 15.11.2026 14:16 UTC · letzte 21 Tage
 
 ## Beiträge
 
 | Zeit | Art | Aufrufe | Reichweite | Likes | Komm. | Geteilt | Gesp. | Profil | Follows | Watchtime | Aufhänger |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 13.11. 19:02 | Karussell | 199 | 82 | 0 | 0 | 0 | 0 | 0 | 0 | - | 5 Dinge, die du in 30 Tagen wirklich ändern kannst. 🔥 |
-| 08.11. 19:03 | Karussell | 470 | 208 | 4 | 1 | 0 | 1 | 2 | 0 | - | 7 Sätze, die du dir ab 30 abgewöhnen solltest. 🧠 |
-| 07.11. 11:00 | Reel | 492 | 397 | 4 | 0 | 0 | 0 | - | - | 5.4s | Du hast ungefähr 4.000 Wochen. Mit 20 sind schon über 1.000 weg. |
+| 13.11. 19:02 | Karussell | 238 | 99 | 0 | 0 | 0 | 0 | 0 | 0 | - | 5 Dinge, die du in 30 Tagen wirklich ändern kannst. 🔥 |
+| 08.11. 19:03 | Karussell | 483 | 216 | 4 | 1 | 0 | 1 | 2 | 0 | - | 7 Sätze, die du dir ab 30 abgewöhnen solltest. 🧠 |
+| 07.11. 11:00 | Reel | 501 | 404 | 4 | 0 | 0 | 0 | - | - | 5.4s | Du hast ungefähr 4.000 Wochen. Mit 20 sind schon über 1.000 weg. |
 | 05.11. 13:00 | Reel | 172 | 157 | 2 | 1 | 0 | 0 | - | - | 3.2s | Schulden sind nicht das Problem. Konsumschulden sind es. |
 | 04.11. 13:00 | Reel | 193 | 163 | 1 | 1 | 1 | 0 | - | - | 3.6s | Der sicherste Job ist der, den du selbst gebaut hast. |
 | 03.11. 13:00 | Reel | 168 | 158 | 2 | 0 | 0 | 0 | - | - | 2.1s | Dein Handy kennt deine Ziele nicht. Es kennt nur deine Schwäche. |
@@ -27,29 +27,28 @@ Stand: 14.11.2026 13:46 UTC · letzte 21 Tage
 | 26.10. 16:16 | Reel | 986 | 713 | 21 | 3 | 7 | 6 | - | - | 17.4s | Verschwende nicht deine Kostbare Lebenszeit. |
 | 26.10. 13:00 | Reel | 160 | 143 | 3 | 0 | 0 | 0 | - | - | 3.3s | Du wirst nicht befördert, weil du viel arbeitest. Sondern weil jemand  |
 | 25.10. 19:00 | Bild | 733 | 468 | 6 | 0 | 0 | 1 | 4 | 1 | - | Du wirst nicht müde von der Arbeit. Du wirst müde von der Arbeit, die  |
-| 25.10. 13:00 | Reel | 134 | 124 | 2 | 0 | 0 | 0 | - | - | 2.6s | Manche Freundschaften enden nicht mit Streit. Sie enden mit Schweigen. |
-| 24.10. 19:02 | Karussell | 467 | 203 | 3 | 0 | 0 | 1 | 0 | 0 | - | Angestellt denken oder unternehmerisch denken. Beides ist erlaubt – ab |
 
 ## Themensäulen (Schnitt pro Beitrag)
 
 | Säule | Beiträge | Aufrufe | Reichweite | Geteilt | Gespeichert | Profilbesuche |
 |---|---|---|---|---|---|---|
-| sonstiges | 21 | 310.6 | 190.0 | 0.1 | 0.4 | 1.1 |
+| sonstiges | 19 | 314.4 | 194.2 | 0.1 | 0.4 | 1.2 |
 
 ## Woher die Reichweite kommt (7 Tage)
 
 | Quelle | Wert |
 |---|---|
-| reach:FOLLOWER | 385 |
-| reach:NON_FOLLOWER | 118 |
-| views:FOLLOWER | 1668 |
-| views:NON_FOLLOWER | 181 |
+| reach:FOLLOWER | 360 |
+| reach:NON_FOLLOWER | 111 |
+| views:FOLLOWER | 1409 |
+| views:NON_FOLLOWER | 171 |
 
 ## Konto pro Tag
 
 | Tag | Aufrufe | Reichweite | Follower-Zuwachs |
 |---|---|---|---|
-| 2026-11-13 | - | 101 | 0 |
+| 2026-11-14 | - | 59 | 0 |
+| 2026-11-13 | - | 101 | 7 |
 | 2026-11-12 | - | 188 | 1 |
 | 2026-11-11 | - | 126 | 0 |
 | 2026-11-10 | - | 118 | 0 |
@@ -69,4 +68,3 @@ Stand: 14.11.2026 13:46 UTC · letzte 21 Tage
 | 2026-10-27 | - | 431 | 2 |
 | 2026-10-26 | - | 849 | 5 |
 | 2026-10-25 | - | 474 | 2 |
-| 2026-10-24 | - | 362 | 2 |
