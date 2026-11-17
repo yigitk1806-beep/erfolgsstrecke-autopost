@@ -1,20 +1,20 @@
 # Zahlen @erfolgsstrecke
-Stand: 16.11.2026 16:21 UTC · letzte 21 Tage
+Stand: 17.11.2026 16:26 UTC · letzte 21 Tage
 
 ## Beiträge
 
 | Zeit | Art | Aufrufe | Reichweite | Likes | Komm. | Geteilt | Gesp. | Profil | Follows | Watchtime | Aufhänger |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 13.11. 19:02 | Karussell | 268 | 106 | 0 | 0 | 0 | 0 | 0 | 0 | - | 5 Dinge, die du in 30 Tagen wirklich ändern kannst. 🔥 |
-| 08.11. 19:03 | Karussell | 509 | 227 | 4 | 1 | 0 | 1 | 2 | 0 | - | 7 Sätze, die du dir ab 30 abgewöhnen solltest. 🧠 |
-| 07.11. 11:00 | Reel | 509 | 412 | 4 | 0 | 0 | 0 | - | - | 5.4s | Du hast ungefähr 4.000 Wochen. Mit 20 sind schon über 1.000 weg. |
+| 13.11. 19:02 | Karussell | 289 | 114 | 0 | 0 | 0 | 0 | 0 | 0 | - | 5 Dinge, die du in 30 Tagen wirklich ändern kannst. 🔥 |
+| 08.11. 19:03 | Karussell | 530 | 235 | 4 | 1 | 0 | 1 | 2 | 0 | - | 7 Sätze, die du dir ab 30 abgewöhnen solltest. 🧠 |
+| 07.11. 11:00 | Reel | 517 | 417 | 4 | 0 | 0 | 0 | - | - | 5.5s | Du hast ungefähr 4.000 Wochen. Mit 20 sind schon über 1.000 weg. |
 | 05.11. 13:00 | Reel | 172 | 157 | 2 | 1 | 0 | 0 | - | - | 3.2s | Schulden sind nicht das Problem. Konsumschulden sind es. |
 | 04.11. 13:00 | Reel | 193 | 163 | 1 | 1 | 1 | 0 | - | - | 3.6s | Der sicherste Job ist der, den du selbst gebaut hast. |
 | 03.11. 13:00 | Reel | 168 | 158 | 2 | 0 | 0 | 0 | - | - | 2.1s | Dein Handy kennt deine Ziele nicht. Es kennt nur deine Schwäche. |
 | 02.11. 13:00 | Reel | 167 | 152 | 3 | 0 | 0 | 0 | - | - | 2.5s | Niemand fragt später, wie lange du gebraucht hast. Nur, ob du angekomm |
 | 01.11. 13:00 | Reel | 179 | 146 | 1 | 0 | 0 | 0 | - | - | 3.1s | Teuer ist nicht, was viel kostet. Teuer ist, was du nicht brauchst. |
 | 31.10. 13:00 | Reel | 162 | 148 | 2 | 0 | 0 | 0 | - | - | 1.5s | Erzähl deine Pläne niemandem, der dein altes Leben braucht. |
-| 30.10. 19:02 | Karussell | 406 | 169 | 3 | 0 | 0 | 2 | 0 | 0 | - | 6 Fragen, die du im Vorstellungsgespräch stellen solltest. 💼 |
+| 30.10. 19:02 | Karussell | 406 | 170 | 3 | 0 | 0 | 2 | 0 | 0 | - | 6 Fragen, die du im Vorstellungsgespräch stellen solltest. 💼 |
 | 30.10. 15:22 | Reel | 569 | 424 | 13 | 4 | 15 | 0 | - | - | 16.1s | Die Angst geht nie weg, nur die Chancen! #philosophie #trending #hopec |
 | 30.10. 13:00 | Reel | 182 | 160 | 3 | 0 | 0 | 0 | - | - | 2.4s | Nicht jeden Tag 100 Prozent. Aber nie 0. |
 | 29.10. 19:00 | Bild | 793 | 530 | 6 | 0 | 0 | 1 | 3 | 0 | - | Reich ist nicht, wer viel hat. Reich ist, wer nicht mehr bei jeder Kle |
@@ -22,29 +22,28 @@ Stand: 16.11.2026 16:21 UTC · letzte 21 Tage
 | 28.10. 19:23 | Karussell | 593 | 253 | 5 | 0 | 1 | 1 | 1 | 0 | - | 5 Typen, die dich ausbremsen – ohne es böse zu meinen. 👀 |
 | 28.10. 13:35 | Reel | 93 | 87 | 0 | 0 | 0 | 0 | - | - | 2.6s | Nicht die Inflation frisst dein Geld. Stillstand tut das. |
 | 27.10. 19:03 | Karussell | 386 | 158 | 2 | 0 | 0 | 1 | 0 | 0 | - | Der 60-Minuten-Finanzcheck. Einmal machen, ein Jahr Ruhe. 🧾 |
-| 27.10. 13:01 | Reel | 115 | 108 | 0 | 0 | 0 | 0 | - | - | 2.3s | Der erste Tag ist leicht. Der zweite entscheidet. |
-| 26.10. 19:02 | Karussell | 635 | 272 | 3 | 0 | 0 | 0 | 0 | 0 | - | 3 Stunden Handy am Tag sind 45 Tage im Jahr. ⏳ |
 
 ## Themensäulen (Schnitt pro Beitrag)
 
 | Säule | Beiträge | Aufrufe | Reichweite | Geteilt | Gespeichert | Profilbesuche |
 |---|---|---|---|---|---|---|
-| sonstiges | 17 | 302.3 | 182.3 | 0.1 | 0.4 | 0.9 |
+| sonstiges | 15 | 295.4 | 182.4 | 0.1 | 0.4 | 1.0 |
 
 ## Woher die Reichweite kommt (7 Tage)
 
 | Quelle | Wert |
 |---|---|
-| reach:FOLLOWER | 323 |
-| reach:NON_FOLLOWER | 119 |
-| views:FOLLOWER | 1144 |
-| views:NON_FOLLOWER | 174 |
+| reach:FOLLOWER | 295 |
+| reach:NON_FOLLOWER | 116 |
+| views:FOLLOWER | 973 |
+| views:NON_FOLLOWER | 163 |
 
 ## Konto pro Tag
 
 | Tag | Aufrufe | Reichweite | Follower-Zuwachs |
 |---|---|---|---|
-| 2026-11-15 | - | 49 | 0 |
+| 2026-11-16 | - | 37 | 0 |
+| 2026-11-15 | - | 49 | 2 |
 | 2026-11-14 | - | 59 | 4 |
 | 2026-11-13 | - | 101 | 7 |
 | 2026-11-12 | - | 188 | 1 |
@@ -64,4 +63,3 @@ Stand: 16.11.2026 16:21 UTC · letzte 21 Tage
 | 2026-10-29 | - | 417 | 0 |
 | 2026-10-28 | - | 457 | 4 |
 | 2026-10-27 | - | 431 | 2 |
-| 2026-10-26 | - | 849 | 5 |
