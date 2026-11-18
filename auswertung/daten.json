@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-17T16:26:02+00:00",
+  "stand": "2026-11-18T15:57:00+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
     {
@@ -11,8 +11,8 @@
       "kommentare": 0,
       "thema": "dreissig-tage",
       "saeule": "sonstiges",
-      "views": 289,
-      "reach": 114,
+      "views": 302,
+      "reach": 118,
       "comments": 0,
       "shares": 0,
       "saved": 0,
@@ -29,8 +29,8 @@
       "kommentare": 1,
       "thema": "nicht-mehr-sagen",
       "saeule": "sonstiges",
-      "views": 530,
-      "reach": 235,
+      "views": 541,
+      "reach": 240,
       "comments": 1,
       "shares": 0,
       "saved": 1,
@@ -47,14 +47,14 @@
       "kommentare": 0,
       "thema": null,
       "saeule": null,
-      "views": 517,
-      "reach": 417,
+      "views": 524,
+      "reach": 422,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 6,
-      "ig_reels_avg_watch_time": 5536,
-      "ig_reels_video_view_total_time": 2469146
+      "ig_reels_avg_watch_time": 5582,
+      "ig_reels_video_view_total_time": 2528988
     },
     {
       "id": "18069717044788732",
@@ -271,49 +271,9 @@
       "total_interactions": 8,
       "profile_visits": 1,
       "follows": 0
-    },
-    {
-      "id": "18139856914652204",
-      "zeit": "2026-10-28T11:35:34+0000",
-      "art": "VIDEO",
-      "hook": "Nicht die Inflation frisst dein Geld. Stillstand tut das.",
-      "likes": 0,
-      "kommentare": 0,
-      "thema": "stillstand",
-      "saeule": "sonstiges",
-      "views": 93,
-      "reach": 87,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 1,
-      "ig_reels_avg_watch_time": 2619,
-      "ig_reels_video_view_total_time": 220076
-    },
-    {
-      "id": "18014737700953285",
-      "zeit": "2026-10-27T17:03:00+0000",
-      "art": "CAROUSEL_ALBUM",
-      "hook": "Der 60-Minuten-Finanzcheck. Einmal machen, ein Jahr Ruhe. 🧾",
-      "likes": 2,
-      "kommentare": 0,
-      "thema": "finanzcheck",
-      "saeule": "sonstiges",
-      "views": 386,
-      "reach": 158,
-      "comments": 0,
-      "shares": 0,
-      "saved": 1,
-      "total_interactions": 3,
-      "profile_visits": 0,
-      "follows": 0
     }
   ],
   "verlauf": {
-    "2026-10-27": {
-      "reach": 431,
-      "follower_count": 2
-    },
     "2026-10-28": {
       "reach": 457,
       "follower_count": 4
@@ -392,13 +352,17 @@
     },
     "2026-11-16": {
       "reach": 37,
+      "follower_count": 4
+    },
+    "2026-11-17": {
+      "reach": 37,
       "follower_count": 0
     }
   },
   "herkunft_7_tage": {
-    "reach:FOLLOWER": 295,
-    "reach:NON_FOLLOWER": 116,
-    "views:NON_FOLLOWER": 163,
-    "views:FOLLOWER": 973
+    "reach:FOLLOWER": 268,
+    "reach:NON_FOLLOWER": 102,
+    "views:FOLLOWER": 775,
+    "views:NON_FOLLOWER": 137
   }
 }

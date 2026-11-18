@@ -1,13 +1,13 @@
 # Zahlen @erfolgsstrecke
-Stand: 17.11.2026 16:26 UTC · letzte 21 Tage
+Stand: 18.11.2026 15:57 UTC · letzte 21 Tage
 
 ## Beiträge
 
 | Zeit | Art | Aufrufe | Reichweite | Likes | Komm. | Geteilt | Gesp. | Profil | Follows | Watchtime | Aufhänger |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 13.11. 19:02 | Karussell | 289 | 114 | 0 | 0 | 0 | 0 | 0 | 0 | - | 5 Dinge, die du in 30 Tagen wirklich ändern kannst. 🔥 |
-| 08.11. 19:03 | Karussell | 530 | 235 | 4 | 1 | 0 | 1 | 2 | 0 | - | 7 Sätze, die du dir ab 30 abgewöhnen solltest. 🧠 |
-| 07.11. 11:00 | Reel | 517 | 417 | 4 | 0 | 0 | 0 | - | - | 5.5s | Du hast ungefähr 4.000 Wochen. Mit 20 sind schon über 1.000 weg. |
+| 13.11. 19:02 | Karussell | 302 | 118 | 0 | 0 | 0 | 0 | 0 | 0 | - | 5 Dinge, die du in 30 Tagen wirklich ändern kannst. 🔥 |
+| 08.11. 19:03 | Karussell | 541 | 240 | 4 | 1 | 0 | 1 | 2 | 0 | - | 7 Sätze, die du dir ab 30 abgewöhnen solltest. 🧠 |
+| 07.11. 11:00 | Reel | 524 | 422 | 4 | 0 | 0 | 0 | - | - | 5.6s | Du hast ungefähr 4.000 Wochen. Mit 20 sind schon über 1.000 weg. |
 | 05.11. 13:00 | Reel | 172 | 157 | 2 | 1 | 0 | 0 | - | - | 3.2s | Schulden sind nicht das Problem. Konsumschulden sind es. |
 | 04.11. 13:00 | Reel | 193 | 163 | 1 | 1 | 1 | 0 | - | - | 3.6s | Der sicherste Job ist der, den du selbst gebaut hast. |
 | 03.11. 13:00 | Reel | 168 | 158 | 2 | 0 | 0 | 0 | - | - | 2.1s | Dein Handy kennt deine Ziele nicht. Es kennt nur deine Schwäche. |
@@ -20,29 +20,28 @@ Stand: 17.11.2026 16:26 UTC · letzte 21 Tage
 | 29.10. 19:00 | Bild | 793 | 530 | 6 | 0 | 0 | 1 | 3 | 0 | - | Reich ist nicht, wer viel hat. Reich ist, wer nicht mehr bei jeder Kle |
 | 29.10. 13:00 | Reel | 118 | 105 | 3 | 0 | 0 | 0 | - | - | 3.6s | Überstunden sind kein Beweis für Einsatz. Oft sind sie ein Beweis für  |
 | 28.10. 19:23 | Karussell | 593 | 253 | 5 | 0 | 1 | 1 | 1 | 0 | - | 5 Typen, die dich ausbremsen – ohne es böse zu meinen. 👀 |
-| 28.10. 13:35 | Reel | 93 | 87 | 0 | 0 | 0 | 0 | - | - | 2.6s | Nicht die Inflation frisst dein Geld. Stillstand tut das. |
-| 27.10. 19:03 | Karussell | 386 | 158 | 2 | 0 | 0 | 1 | 0 | 0 | - | Der 60-Minuten-Finanzcheck. Einmal machen, ein Jahr Ruhe. 🧾 |
 
 ## Themensäulen (Schnitt pro Beitrag)
 
 | Säule | Beiträge | Aufrufe | Reichweite | Geteilt | Gespeichert | Profilbesuche |
 |---|---|---|---|---|---|---|
-| sonstiges | 15 | 295.4 | 182.4 | 0.1 | 0.4 | 1.0 |
+| sonstiges | 13 | 305.8 | 192.3 | 0.2 | 0.4 | 1.2 |
 
 ## Woher die Reichweite kommt (7 Tage)
 
 | Quelle | Wert |
 |---|---|
-| reach:FOLLOWER | 295 |
-| reach:NON_FOLLOWER | 116 |
-| views:FOLLOWER | 973 |
-| views:NON_FOLLOWER | 163 |
+| reach:FOLLOWER | 268 |
+| reach:NON_FOLLOWER | 102 |
+| views:FOLLOWER | 775 |
+| views:NON_FOLLOWER | 137 |
 
 ## Konto pro Tag
 
 | Tag | Aufrufe | Reichweite | Follower-Zuwachs |
 |---|---|---|---|
-| 2026-11-16 | - | 37 | 0 |
+| 2026-11-17 | - | 37 | 0 |
+| 2026-11-16 | - | 37 | 4 |
 | 2026-11-15 | - | 49 | 2 |
 | 2026-11-14 | - | 59 | 4 |
 | 2026-11-13 | - | 101 | 7 |
@@ -62,4 +61,3 @@ Stand: 17.11.2026 16:26 UTC · letzte 21 Tage
 | 2026-10-30 | - | 643 | 4 |
 | 2026-10-29 | - | 417 | 0 |
 | 2026-10-28 | - | 457 | 4 |
-| 2026-10-27 | - | 431 | 2 |
