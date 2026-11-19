@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-18T15:57:00+00:00",
+  "stand": "2026-11-19T16:00:32+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
     {
@@ -11,8 +11,8 @@
       "kommentare": 0,
       "thema": "dreissig-tage",
       "saeule": "sonstiges",
-      "views": 302,
-      "reach": 118,
+      "views": 319,
+      "reach": 128,
       "comments": 0,
       "shares": 0,
       "saved": 0,
@@ -29,8 +29,8 @@
       "kommentare": 1,
       "thema": "nicht-mehr-sagen",
       "saeule": "sonstiges",
-      "views": 541,
-      "reach": 240,
+      "views": 554,
+      "reach": 250,
       "comments": 1,
       "shares": 0,
       "saved": 1,
@@ -47,14 +47,14 @@
       "kommentare": 0,
       "thema": null,
       "saeule": null,
-      "views": 524,
-      "reach": 422,
+      "views": 527,
+      "reach": 424,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 6,
-      "ig_reels_avg_watch_time": 5582,
-      "ig_reels_video_view_total_time": 2528988
+      "ig_reels_avg_watch_time": 5573,
+      "ig_reels_video_view_total_time": 2535977
     },
     {
       "id": "18069717044788732",
@@ -174,7 +174,7 @@
       "thema": "fragen-bewerbung",
       "saeule": "sonstiges",
       "views": 406,
-      "reach": 170,
+      "reach": 171,
       "comments": 0,
       "shares": 0,
       "saved": 2,
@@ -235,49 +235,9 @@
       "total_interactions": 9,
       "profile_visits": 3,
       "follows": 0
-    },
-    {
-      "id": "18110290493254640",
-      "zeit": "2026-10-29T11:00:49+0000",
-      "art": "VIDEO",
-      "hook": "Überstunden sind kein Beweis für Einsatz. Oft sind sie ein Beweis für ",
-      "likes": 3,
-      "kommentare": 0,
-      "thema": "verfuegbarkeit-chef",
-      "saeule": "sonstiges",
-      "views": 118,
-      "reach": 105,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 5,
-      "ig_reels_avg_watch_time": 3627,
-      "ig_reels_video_view_total_time": 377271
-    },
-    {
-      "id": "18494352418109623",
-      "zeit": "2026-10-28T17:23:56+0000",
-      "art": "CAROUSEL_ALBUM",
-      "hook": "5 Typen, die dich ausbremsen – ohne es böse zu meinen. 👀",
-      "likes": 5,
-      "kommentare": 0,
-      "thema": "ausbremser",
-      "saeule": "sonstiges",
-      "views": 593,
-      "reach": 253,
-      "comments": 0,
-      "shares": 1,
-      "saved": 1,
-      "total_interactions": 8,
-      "profile_visits": 1,
-      "follows": 0
     }
   ],
   "verlauf": {
-    "2026-10-28": {
-      "reach": 457,
-      "follower_count": 4
-    },
     "2026-10-29": {
       "reach": 417,
       "follower_count": 0
@@ -356,13 +316,17 @@
     },
     "2026-11-17": {
       "reach": 37,
+      "follower_count": 2
+    },
+    "2026-11-18": {
+      "reach": 36,
       "follower_count": 0
     }
   },
   "herkunft_7_tage": {
-    "reach:FOLLOWER": 268,
     "reach:NON_FOLLOWER": 102,
-    "views:FOLLOWER": 775,
-    "views:NON_FOLLOWER": 137
+    "reach:FOLLOWER": 181,
+    "views:FOLLOWER": 484,
+    "views:NON_FOLLOWER": 109
   }
 }
