@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-19T16:00:32+00:00",
+  "stand": "2026-11-20T15:43:35+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
     {
@@ -11,12 +11,12 @@
       "kommentare": 0,
       "thema": "dreissig-tage",
       "saeule": "sonstiges",
-      "views": 319,
-      "reach": 128,
+      "views": 330,
+      "reach": 131,
       "comments": 0,
       "shares": 0,
-      "saved": 0,
-      "total_interactions": 0,
+      "saved": 1,
+      "total_interactions": 1,
       "profile_visits": 0,
       "follows": 0
     },
@@ -29,8 +29,8 @@
       "kommentare": 1,
       "thema": "nicht-mehr-sagen",
       "saeule": "sonstiges",
-      "views": 554,
-      "reach": 250,
+      "views": 562,
+      "reach": 254,
       "comments": 1,
       "shares": 0,
       "saved": 1,
@@ -155,14 +155,14 @@
       "kommentare": 0,
       "thema": "alte-leben",
       "saeule": "sonstiges",
-      "views": 162,
-      "reach": 148,
+      "views": 163,
+      "reach": 149,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 2,
-      "ig_reels_avg_watch_time": 1532,
-      "ig_reels_video_view_total_time": 225277
+      "ig_reels_avg_watch_time": 1563,
+      "ig_reels_video_view_total_time": 231386
     },
     {
       "id": "18134649421818296",
@@ -181,67 +181,9 @@
       "total_interactions": 6,
       "profile_visits": 0,
       "follows": 0
-    },
-    {
-      "id": "18145830862508618",
-      "zeit": "2026-10-30T13:22:35+0000",
-      "art": "VIDEO",
-      "hook": "Die Angst geht nie weg, nur die Chancen! #philosophie #trending #hopec",
-      "likes": 13,
-      "kommentare": 4,
-      "thema": null,
-      "saeule": null,
-      "views": 569,
-      "reach": 424,
-      "comments": 4,
-      "shares": 15,
-      "saved": 0,
-      "total_interactions": 36,
-      "ig_reels_avg_watch_time": 16089,
-      "ig_reels_video_view_total_time": 7175863
-    },
-    {
-      "id": "17984732819901122",
-      "zeit": "2026-10-30T11:00:47+0000",
-      "art": "VIDEO",
-      "hook": "Nicht jeden Tag 100 Prozent. Aber nie 0.",
-      "likes": 3,
-      "kommentare": 0,
-      "thema": "nie-null",
-      "saeule": "sonstiges",
-      "views": 182,
-      "reach": 160,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 3,
-      "ig_reels_avg_watch_time": 2352,
-      "ig_reels_video_view_total_time": 376399
-    },
-    {
-      "id": "17932704321162133",
-      "zeit": "2026-10-29T17:00:09+0000",
-      "art": "IMAGE",
-      "hook": "Reich ist nicht, wer viel hat. Reich ist, wer nicht mehr bei jeder Kle",
-      "likes": 6,
-      "kommentare": 0,
-      "thema": "preis-fragen",
-      "saeule": "sonstiges",
-      "views": 793,
-      "reach": 530,
-      "comments": 0,
-      "shares": 0,
-      "saved": 1,
-      "total_interactions": 9,
-      "profile_visits": 3,
-      "follows": 0
     }
   ],
   "verlauf": {
-    "2026-10-29": {
-      "reach": 417,
-      "follower_count": 0
-    },
     "2026-10-30": {
       "reach": 643,
       "follower_count": 4
@@ -321,12 +263,16 @@
     "2026-11-18": {
       "reach": 36,
       "follower_count": 0
+    },
+    "2026-11-19": {
+      "reach": 49,
+      "follower_count": 0
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 102,
-    "reach:FOLLOWER": 181,
-    "views:FOLLOWER": 484,
-    "views:NON_FOLLOWER": 109
+    "reach:NON_FOLLOWER": 126,
+    "reach:FOLLOWER": 129,
+    "views:FOLLOWER": 328,
+    "views:NON_FOLLOWER": 120
   }
 }
