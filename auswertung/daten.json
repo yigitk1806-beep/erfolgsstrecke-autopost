@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-22T14:51:29+00:00",
+  "stand": "2026-11-23T18:41:27+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
     {
@@ -11,8 +11,8 @@
       "kommentare": 0,
       "thema": "dreissig-tage",
       "saeule": "sonstiges",
-      "views": 342,
-      "reach": 137,
+      "views": 359,
+      "reach": 141,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -29,7 +29,7 @@
       "kommentare": 1,
       "thema": "nicht-mehr-sagen",
       "saeule": "sonstiges",
-      "views": 581,
+      "views": 583,
       "reach": 263,
       "comments": 1,
       "shares": 0,
@@ -109,31 +109,9 @@
       "total_interactions": 2,
       "ig_reels_avg_watch_time": 2054,
       "ig_reels_video_view_total_time": 324652
-    },
-    {
-      "id": "18227095354331647",
-      "zeit": "2026-11-02T11:00:48+0000",
-      "art": "VIDEO",
-      "hook": "Niemand fragt später, wie lange du gebraucht hast. Nur, ob du angekomm",
-      "likes": 3,
-      "kommentare": 0,
-      "thema": "tiefpunkt",
-      "saeule": "sonstiges",
-      "views": 167,
-      "reach": 152,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 3,
-      "ig_reels_avg_watch_time": 2538,
-      "ig_reels_video_view_total_time": 385885
     }
   ],
   "verlauf": {
-    "2026-11-01": {
-      "reach": 456,
-      "follower_count": 5
-    },
     "2026-11-02": {
       "reach": 419,
       "follower_count": 0
@@ -212,13 +190,17 @@
     },
     "2026-11-21": {
       "reach": 18,
-      "follower_count": 0
+      "follower_count": 2
+    },
+    "2026-11-22": {
+      "reach": 27,
+      "follower_count": 2
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 113,
-    "reach:FOLLOWER": 85,
-    "views:NON_FOLLOWER": 106,
-    "views:FOLLOWER": 212
+    "reach:NON_FOLLOWER": 118,
+    "reach:FOLLOWER": 71,
+    "views:NON_FOLLOWER": 102,
+    "views:FOLLOWER": 182
   }
 }
