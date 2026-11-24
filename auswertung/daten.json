@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-23T18:41:27+00:00",
+  "stand": "2026-11-24T18:12:59+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
     {
@@ -11,8 +11,8 @@
       "kommentare": 0,
       "thema": "dreissig-tage",
       "saeule": "sonstiges",
-      "views": 359,
-      "reach": 141,
+      "views": 360,
+      "reach": 142,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -91,31 +91,9 @@
       "total_interactions": 3,
       "ig_reels_avg_watch_time": 3637,
       "ig_reels_video_view_total_time": 600185
-    },
-    {
-      "id": "18078287996741091",
-      "zeit": "2026-11-03T11:00:47+0000",
-      "art": "VIDEO",
-      "hook": "Dein Handy kennt deine Ziele nicht. Es kennt nur deine Schwäche.",
-      "likes": 2,
-      "kommentare": 0,
-      "thema": "handy-schwaeche",
-      "saeule": "sonstiges",
-      "views": 168,
-      "reach": 158,
-      "comments": 0,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 2,
-      "ig_reels_avg_watch_time": 2054,
-      "ig_reels_video_view_total_time": 324652
     }
   ],
   "verlauf": {
-    "2026-11-02": {
-      "reach": 419,
-      "follower_count": 0
-    },
     "2026-11-03": {
       "reach": 407,
       "follower_count": 2
@@ -195,12 +173,16 @@
     "2026-11-22": {
       "reach": 27,
       "follower_count": 2
+    },
+    "2026-11-23": {
+      "reach": 24,
+      "follower_count": 2
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 118,
-    "reach:FOLLOWER": 71,
-    "views:NON_FOLLOWER": 102,
-    "views:FOLLOWER": 182
+    "reach:NON_FOLLOWER": 119,
+    "reach:FOLLOWER": 56,
+    "views:FOLLOWER": 150,
+    "views:NON_FOLLOWER": 98
   }
 }
