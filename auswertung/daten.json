@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-24T18:12:59+00:00",
+  "stand": "2026-11-25T17:34:16+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
     {
@@ -11,8 +11,8 @@
       "kommentare": 0,
       "thema": "dreissig-tage",
       "saeule": "sonstiges",
-      "views": 360,
-      "reach": 142,
+      "views": 366,
+      "reach": 146,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -73,31 +73,9 @@
       "total_interactions": 3,
       "ig_reels_avg_watch_time": 3215,
       "ig_reels_video_view_total_time": 495259
-    },
-    {
-      "id": "18101131985435741",
-      "zeit": "2026-11-04T11:00:47+0000",
-      "art": "VIDEO",
-      "hook": "Der sicherste Job ist der, den du selbst gebaut hast.",
-      "likes": 1,
-      "kommentare": 1,
-      "thema": "selbst-gebaut",
-      "saeule": "sonstiges",
-      "views": 193,
-      "reach": 163,
-      "comments": 1,
-      "shares": 1,
-      "saved": 0,
-      "total_interactions": 3,
-      "ig_reels_avg_watch_time": 3637,
-      "ig_reels_video_view_total_time": 600185
     }
   ],
   "verlauf": {
-    "2026-11-03": {
-      "reach": 407,
-      "follower_count": 2
-    },
     "2026-11-04": {
       "reach": 413,
       "follower_count": 4
@@ -177,12 +155,16 @@
     "2026-11-23": {
       "reach": 24,
       "follower_count": 2
+    },
+    "2026-11-24": {
+      "reach": 15,
+      "follower_count": 1
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 119,
-    "reach:FOLLOWER": 56,
-    "views:FOLLOWER": 150,
-    "views:NON_FOLLOWER": 98
+    "reach:FOLLOWER": 45,
+    "reach:NON_FOLLOWER": 118,
+    "views:FOLLOWER": 128,
+    "views:NON_FOLLOWER": 92
   }
 }
