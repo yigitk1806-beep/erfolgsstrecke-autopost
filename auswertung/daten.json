@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-25T17:34:16+00:00",
+  "stand": "2026-11-26T17:15:30+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
     {
@@ -11,8 +11,8 @@
       "kommentare": 0,
       "thema": "dreissig-tage",
       "saeule": "sonstiges",
-      "views": 366,
-      "reach": 146,
+      "views": 370,
+      "reach": 149,
       "comments": 0,
       "shares": 0,
       "saved": 1,
@@ -55,31 +55,9 @@
       "total_interactions": 6,
       "ig_reels_avg_watch_time": 5565,
       "ig_reels_video_view_total_time": 2537662
-    },
-    {
-      "id": "18069717044788732",
-      "zeit": "2026-11-05T11:00:47+0000",
-      "art": "VIDEO",
-      "hook": "Schulden sind nicht das Problem. Konsumschulden sind es.",
-      "likes": 2,
-      "kommentare": 1,
-      "thema": "konsumschulden",
-      "saeule": "sonstiges",
-      "views": 172,
-      "reach": 157,
-      "comments": 1,
-      "shares": 0,
-      "saved": 0,
-      "total_interactions": 3,
-      "ig_reels_avg_watch_time": 3215,
-      "ig_reels_video_view_total_time": 495259
     }
   ],
   "verlauf": {
-    "2026-11-04": {
-      "reach": 413,
-      "follower_count": 4
-    },
     "2026-11-05": {
       "reach": 354,
       "follower_count": 1
@@ -159,12 +137,16 @@
     "2026-11-24": {
       "reach": 15,
       "follower_count": 1
+    },
+    "2026-11-25": {
+      "reach": 17,
+      "follower_count": 2
     }
   },
   "herkunft_7_tage": {
-    "reach:FOLLOWER": 45,
-    "reach:NON_FOLLOWER": 118,
-    "views:FOLLOWER": 128,
-    "views:NON_FOLLOWER": 92
+    "reach:NON_FOLLOWER": 93,
+    "reach:FOLLOWER": 36,
+    "views:FOLLOWER": 91,
+    "views:NON_FOLLOWER": 72
   }
 }
