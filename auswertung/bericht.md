@@ -1,33 +1,35 @@
 # Zahlen @erfolgsstrecke
-Stand: 26.11.2026 17:15 UTC · letzte 21 Tage
+Stand: 27.11.2026 16:56 UTC · letzte 21 Tage
 
 ## Beiträge
 
 | Zeit | Art | Aufrufe | Reichweite | Likes | Komm. | Geteilt | Gesp. | Profil | Follows | Watchtime | Aufhänger |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 13.11. 19:02 | Karussell | 370 | 149 | 0 | 0 | 0 | 1 | 0 | 0 | - | 5 Dinge, die du in 30 Tagen wirklich ändern kannst. 🔥 |
+| 27.11. 16:16 | Reel | 271 | 224 | 2 | 0 | 1 | 0 | - | - | 10.9s | Jemand hat einmal etwas Gemeines zu dir gesagt. |
+| 13.11. 19:02 | Karussell | 377 | 149 | 0 | 0 | 0 | 1 | 1 | 0 | - | 5 Dinge, die du in 30 Tagen wirklich ändern kannst. 🔥 |
 | 08.11. 19:03 | Karussell | 583 | 263 | 4 | 1 | 0 | 1 | 2 | 0 | - | 7 Sätze, die du dir ab 30 abgewöhnen solltest. 🧠 |
-| 07.11. 11:00 | Reel | 528 | 424 | 4 | 0 | 0 | 0 | - | - | 5.6s | Du hast ungefähr 4.000 Wochen. Mit 20 sind schon über 1.000 weg. |
+| 07.11. 11:00 | Reel | 529 | 425 | 4 | 0 | 0 | 0 | - | - | 5.6s | Du hast ungefähr 4.000 Wochen. Mit 20 sind schon über 1.000 weg. |
 
 ## Themensäulen (Schnitt pro Beitrag)
 
 | Säule | Beiträge | Aufrufe | Reichweite | Geteilt | Gespeichert | Profilbesuche |
 |---|---|---|---|---|---|---|
-| sonstiges | 2 | 476.5 | 206.0 | 0.0 | 1.0 | 1.0 |
+| sonstiges | 3 | 410.3 | 212.0 | 0.3 | 0.7 | 1.5 |
 
 ## Woher die Reichweite kommt (7 Tage)
 
 | Quelle | Wert |
 |---|---|
-| reach:FOLLOWER | 36 |
-| reach:NON_FOLLOWER | 93 |
-| views:FOLLOWER | 91 |
-| views:NON_FOLLOWER | 72 |
+| reach:FOLLOWER | 62 |
+| reach:NON_FOLLOWER | 270 |
+| views:FOLLOWER | 104 |
+| views:NON_FOLLOWER | 323 |
 
 ## Konto pro Tag
 
 | Tag | Aufrufe | Reichweite | Follower-Zuwachs |
 |---|---|---|---|
+| 2026-11-26 | - | 16 | 3 |
 | 2026-11-25 | - | 17 | 2 |
 | 2026-11-24 | - | 15 | 1 |
 | 2026-11-23 | - | 24 | 2 |
@@ -48,4 +50,3 @@ Stand: 26.11.2026 17:15 UTC · letzte 21 Tage
 | 2026-11-08 | - | 157 | 4 |
 | 2026-11-07 | - | 454 | 2 |
 | 2026-11-06 | - | 156 | 1 |
-| 2026-11-05 | - | 354 | 1 |

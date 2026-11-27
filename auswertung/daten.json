@@ -1,7 +1,25 @@
 {
-  "stand": "2026-11-26T17:15:30+00:00",
+  "stand": "2026-11-27T16:56:55+00:00",
   "konto": "erfolgsstrecke",
   "beitraege": [
+    {
+      "id": "18198740317402257",
+      "zeit": "2026-11-27T14:16:14+0000",
+      "art": "VIDEO",
+      "hook": "Jemand hat einmal etwas Gemeines zu dir gesagt.",
+      "likes": 2,
+      "kommentare": 0,
+      "thema": "der-stein",
+      "saeule": "sonstiges",
+      "views": 271,
+      "reach": 224,
+      "comments": 0,
+      "shares": 1,
+      "saved": 0,
+      "total_interactions": 4,
+      "ig_reels_avg_watch_time": 10896,
+      "ig_reels_video_view_total_time": 2473429
+    },
     {
       "id": "18439879342197645",
       "zeit": "2026-11-13T17:02:01+0000",
@@ -11,13 +29,13 @@
       "kommentare": 0,
       "thema": "dreissig-tage",
       "saeule": "sonstiges",
-      "views": 370,
+      "views": 377,
       "reach": 149,
       "comments": 0,
       "shares": 0,
       "saved": 1,
       "total_interactions": 1,
-      "profile_visits": 0,
+      "profile_visits": 1,
       "follows": 0
     },
     {
@@ -47,21 +65,17 @@
       "kommentare": 0,
       "thema": null,
       "saeule": null,
-      "views": 528,
-      "reach": 424,
+      "views": 529,
+      "reach": 425,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "total_interactions": 6,
-      "ig_reels_avg_watch_time": 5565,
-      "ig_reels_video_view_total_time": 2537662
+      "ig_reels_avg_watch_time": 5611,
+      "ig_reels_video_view_total_time": 2570255
     }
   ],
   "verlauf": {
-    "2026-11-05": {
-      "reach": 354,
-      "follower_count": 1
-    },
     "2026-11-06": {
       "reach": 156,
       "follower_count": 1
@@ -141,12 +155,16 @@
     "2026-11-25": {
       "reach": 17,
       "follower_count": 2
+    },
+    "2026-11-26": {
+      "reach": 16,
+      "follower_count": 3
     }
   },
   "herkunft_7_tage": {
-    "reach:NON_FOLLOWER": 93,
-    "reach:FOLLOWER": 36,
-    "views:FOLLOWER": 91,
-    "views:NON_FOLLOWER": 72
+    "reach:NON_FOLLOWER": 270,
+    "reach:FOLLOWER": 62,
+    "views:FOLLOWER": 104,
+    "views:NON_FOLLOWER": 323
   }
 }
